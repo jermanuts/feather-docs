@@ -1,0 +1,21 @@
+- slug: installation
+  name: Installation
+  description: ""
+- slug: getting-started
+  name: Getting started
+  description: ""
+- slug: howto
+  name: How To
+  description: ""
+- slug: faq
+  name: FAQ
+  description: ""
+- slug: advanced
+  name: Advanced
+  description: ""
+- slug: troubleshooting
+  name: Troubleshooting
+  description: ""
+- slug: help
+  name: Help
+  description: ""
