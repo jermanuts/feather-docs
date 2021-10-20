@@ -39,7 +39,7 @@ Feature comparison between Monero desktop wallets.
 |Create ReserveProof                          |✖*|✔|✖|
 |**► Coin Control**|
 |Freeze/Thaw                                  |✔|✔|✖|
-|[Sweep single](sweep-outputs)                |✔|✔|✖|
+|[Sweep single](sweep-output)                 |✔|✔|✖|
 |Sweep multi (selected)                       |✔|✖|✖|
 |Sweep all                                    |✔|✔|✖|
 |Output splitting                             |✔|✔|✖|
