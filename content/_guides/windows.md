@@ -9,9 +9,6 @@ Installation will only take a minute to complete.
 
 The estimated storage requirement is ~60 MB.
 
-### **Note**: This section describes the installation procedure for an upcoming version. 
-<br>
-
 ## Installing Feather
 
 - Download the latest Windows installer from [featherwallet.org/download](https://featherwallet.org/download).

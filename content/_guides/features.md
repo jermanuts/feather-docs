@@ -14,7 +14,7 @@ Feature comparison between Monero desktop wallets.
 |Dark mode                                    |✔|✔|✔|
 |[View-only wallet](create-view-only-wallet)  |✔|✔|✔|
 |Language localisation                        |✖*|✔|✔|
-|[Wallet implementation](architecture)        |`wallet2` <sup>[0]</sup>|`wallet2`|`wallet2`|
+|Wallet implementation                        |`wallet2` <sup>[0]</sup>|`wallet2`|`wallet2`|
 |**► Seed & Keys**|
 |Export secret keys                           |✔|✔|✔|
 |[Seed scheme](seed-scheme)                   |14\|25|25|25|
@@ -22,10 +22,9 @@ Feature comparison between Monero desktop wallets.
 |**► Privacy & Security**|
 |[Built-in Tor](tor-support)                  |✔|✖|✖|
 |Socks5 proxy support                         |✔<sup>[2]</sup>|✔<sup>[2]</sup>|✔<sup>[2]</sup>|
-|Node autoswitcher                            |✔|✖|✖|
 |Address re-use mitigation                    |✔|✔|✖|
 |[Encrypted wallet files](wallet-files)       |✔|✔|✔|
-|[Reproducible builds](building-from-source)  |✔<sup>[3]</sup>|✔<sup>[3]</sup>|✔|
+|[Reproducible builds](building-from-source)  |✔<sup>[3]</sup>|✔|✔<sup>[3]</sup>|
 |Hide balance                                 |✔|✖|✔|
 |Output blackballing                          |✖|✔|✔|
 |Lock on inactivity                           |✖*|✔|✔|
@@ -45,7 +44,7 @@ Feature comparison between Monero desktop wallets.
 |Output splitting                             |✔|✔|✖|
 |**► Transactions**|
 |[Multi-destination transactions](pay-to-many)|✔|✔|✔|
-|[Transaction pusher](push_tx)                |✔|✖|✖|
+|[Transaction pusher](push-tx)                |✔|✖|✖|
 |[Manual transaction import](missing-tx)      |✔|✔|✖|
 |[Transaction rebroadcasting](failed-tx)      |✔|✖|✖|
 |Multibroadcasting                            |✔|✖|✖|
@@ -71,7 +70,7 @@ Feature comparison between Monero desktop wallets.
 |Built-in updater                             |✔|✖|✔|
 |Wallet autosave                              |✔|✖|✔|
 |[Webcam QR code scanner](webcam-qr-scanner)  |✔<sup>[6]</sup>|✖|✔<sup>[7]</sup>|
-|[Export history as CSV](export-tx-history)   |✔|?|✔|
+|[Export history as CSV](export-tx-history)   |✔|✔|✔|
 |Bruteforce wallet files                      |✔|✖|✖|
 |Auto-open passwordless wallets               |✔|✖|✖|
 |Copy-pasteable support template              |✔|✖|✖|
@@ -87,7 +86,7 @@ Feature comparison between Monero desktop wallets.
 (1) = Feather uses BIP-39 wordlists, for Monero see [here](https://github.com/monero-project/monero/tree/master/src/mnemonics). As of 1.0.0 only English is supported for 14 word seeds.  
 (2) = authentication not supported  
 (3) = except macOS  
-(4) = read the rationale here  
+(4) = read the rationale [here](transaction-fee)  
 (5) = with XMRig  
 (6) = except Linux standalone binaries  
 (7) = except Linux release  

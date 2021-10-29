@@ -12,7 +12,7 @@ Within the **Mining** tab, go to the **Downloads** tab.
 
 **Right click → Download file** on the latest XMRig version for your operation system.
 
-After the download is complete, unextract the file.
+After the download is complete, extract the file.
 
 ### Configuring Feather for mining
 
