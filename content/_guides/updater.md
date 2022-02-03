@@ -18,6 +18,6 @@ If you choose to update your wallet, the update will be placed alongside the old
 
 The websocket server notifies the client of the latest Feather version.
 
-If the reported version is higher than the current version, Feather will obtain a PGP-signed textfile containing the file hashes for the update from a hardcoded domain over Tor. It will verify if the textfile was signed using the [release signing key](https://git.featherwallet.org/feather/feather/raw/branch/master/utils/pubkeys/featherwallet.asc) and if the filename matches the new version. The release signing key is included in the Feather binary and does not have to be obtained during the update procedure.
+If the reported version is higher than the current version, Feather will obtain a PGP-signed textfile containing the file hashes for the update from a hardcoded domain over Tor. It will verify if the textfile was signed using the [release signing key](https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/featherwallet.asc) and if the filename matches the new version. The release signing key is included in the Feather binary and does not have to be obtained during the update procedure.
 
 It will notify the client that a new update is available. After the user downloads the update, the downloaded archive is hashed and compared against the signed hash. The update is aborted if the hash does not match.

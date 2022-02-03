@@ -6,9 +6,9 @@ category: help
 
 Feather Wallet was created by dsc, tobtoht, and contributors.
 
-The code is free and open-source, [licensed](https://git.featherwallet.org/feather/feather/raw/branch/master/LICENSE) under BSD-3.
+The code is free and open-source, [licensed](https://raw.githubusercontent.com/feather-wallet/feather/master/LICENSE) under BSD-3.
 
-The official repo lives at [git.featherwallet.org/feather/feather](https://git.featherwallet.org/feather/feather).
+The official repo lives at [github.com/feather-wallet/feather](https://github.com/feather-wallet/feather).
 
 ### Development
 

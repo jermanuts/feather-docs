@@ -82,7 +82,7 @@ Feature comparison between Monero desktop wallets.
 
 **\*** = not yet  
 **†** = no plans to support  
-(0) = with modifications (see the feature branches for [feather/monero](https://git.featherwallet.org/feather/monero))  
+(0) = with modifications (see the feature branches for [feather/monero](https://github.com/feather-wallet/monero))  
 (1) = Feather uses BIP-39 wordlists, for Monero see [here](https://github.com/monero-project/monero/tree/master/src/mnemonics). As of 1.0.0 only English is supported for 14 word seeds.  
 (2) = authentication not supported  
 (3) = except macOS  

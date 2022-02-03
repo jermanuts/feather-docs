@@ -39,7 +39,7 @@ After the download is complete, move the AppImage to a folder within your persis
 
 This section describes how to verify the AppImage file using PGP.
 
-Download the release signing key from the [git repository](https://git.featherwallet.org/feather/feather/raw/branch/master/utils/pubkeys/featherwallet.asc).
+Download the release signing key from the [git repository](https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/featherwallet.asc).
 
 To save the file from Tor Browser: right click **→ Save Page As.. → Save**.
 
