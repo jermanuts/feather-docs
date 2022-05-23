@@ -9,7 +9,7 @@ Issues or support queries can be reported via any of the following channels:
 - Reddit: [/r/FeatherWallet](https://reddit.com/r/featherwallet)
 - Email: [dev@featherwallet.org](mailto:dev@featherwallet.org)
 - IRC: `#feather` on [OFTC](https://www.oftc.net/)
-- Matrix: `#_oftc_#feather:matrix.org`
+- Matrix: `#feather:monero.social`
 - GitHub: [github.com/feather-wallet/feather](https://github.com/feather-wallet/feather)
 
 To help us quickly identify what the issue might be, please include a copy of the **Help → Debug Info** dialog.
