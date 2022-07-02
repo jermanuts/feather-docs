@@ -8,5 +8,5 @@ The Import Transaction tool can be used to manually import a missing transaction
 
 Go to **Tools → Import Transaction**. Enter the transaction ID, and click **Load**. Then click **Import**.
 
-If the transaction belongs to the wallet it should now show up in the **History** tab.
+If the transaction belongs to the wallet it should now show up in the **History** tab. If the import succeeded, but you can't find the transaction make sure you have the correct [account](accounts) selected.
 
