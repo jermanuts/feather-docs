@@ -26,9 +26,6 @@ None of the above is actively tracked or recorded on the server.
 
 The websocket server cannot make the client show arbitrary messages.
 
-As of `1.0.0` it is not possible to disable the websocket connection. We recognize that users with exceptionally high treat models want to minimize their attack surface as much as possible. To accomodate this, we will allow compiling Feather without websocket support as well as add an option to disable it in the settings in a future release.
-
-
 The following data is provided by the websocket server:
 
 |key                        |description|
@@ -46,3 +43,22 @@ The following data is provided by the websocket server:
 |localmonero_currencies     |List of currencies supported by LocalMonero|
 |localmonero_payment_methods|List of payment methods supported by LocalMonero|
 
+### Disabling the websocket connection
+
+We recognize that despite the privacy and security measures laid out above users with high threat models or those that enjoy a more minimal expierence would like to disable the websocket connection. 
+
+As of v2.0.0 the initial setup wizard includes a page that allows users to disable the websocket server before any connection is made. Users that have upgraded from a lower version can disable the websocket connection by following the instruction below:
+
+- Go to File → Settings → Privacy.
+- Check "Disable websocket". 
+
+This will immediately disable the websocket connection. This setting is persisted. The websocket connection can be re-enabled at any time. Some functionality that relies on the websocket server will be disabled.
+
+The following tabs will be unavailable: Home, Calc, Exchanges.
+
+The following functionality will be disabled: 
+
+- Send: send by specifying a fiat amount
+- History: historical fiat prices column
+- Settings → Node: updated list of websocket nodes.
+- Mining → Downloads: the list of XMRig downloads will be unavailable.

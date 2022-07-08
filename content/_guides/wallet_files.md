@@ -29,7 +29,7 @@ For a comprehensive overview of the data stored in the wallet cache, see [wallet
 
 If the wallet cache fails to open for any reason it is renamed to `<walletname>.old_cache` and a new cache file is generated in its place.
 
-**Warning**: Transaction keys and the 14-word seed CANNOT be recovered if this file is deleted.
+**Warning**: Transaction keys and your Polyseed CANNOT be recovered if this file is deleted.
 
 ### Address file
 

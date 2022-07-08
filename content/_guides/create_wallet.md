@@ -15,7 +15,7 @@ If the wizard isn't already open, go to **File → New/Restore**.
 
 On the wizard, select **Create new wallet**.
 
-On the next page, the wallet seed is shown. Unlike most Monero wallets, Feather uses 14 word seeds. To learn more about the seed scheme and the benefits compared to 25 word seeds, see the information [here](seed-scheme).
+On the next page, the wallet seed is shown. You may notice that the seed is shorter than other standard 25 word Monero seed. Feather uses Polyseed for 16 word seeds. To learn more about Polyseed and the benefits compared to 25 word seeds, see the information [here](seed-scheme).
 
 The seed allows you to recover your funds in case you lose access to your wallet files. DO NOT LOSE IT.
 

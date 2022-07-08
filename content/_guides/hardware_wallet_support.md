@@ -9,6 +9,7 @@ category: faq
 **Yes**. Feather supports the following devices:
 
 - **Ledger** Nano S
+- **Ledger** Nano S+
 - **Ledger** Nano X
 - **Trezor** Model T
 

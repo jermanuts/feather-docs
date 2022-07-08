@@ -38,7 +38,7 @@ Datastructures not displayed in the viewer:
 
 ### Feather wallet attributes:
 
-- `feather.seed`: backup copy of the [14-word mnemonic seed](seed-scheme)
+- `feather.seed`: backup copy of the wallet's [Polyseed](seed-scheme)
 - `feather.seedoffset`: seed offset passphrase
 - `feather.hiddenaddresses`: comma delimited list of hidden subaddresses.
 - `feather.xmrig_username`: receiving address in mining settings

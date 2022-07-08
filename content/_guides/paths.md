@@ -15,12 +15,12 @@ Feather writes to the following paths:
 
 The **Program data** folder contains the following files:
 
-| What          | File | Description |
-|---------------|------|-------------|
-| Configuration |`settings.json`| JSON file containing wallet settings |
-| Tor program file| `./tor/tor` or `./tor/tor.exe` | Bundled Tor program file, placed here when Feather starts |
-| Fiat history database | `fiatHistory.db` | Text file with on each row: `YYYYMMDD:<XMR price in USD>` |
-| Log files | `libwallet.log*` | Monero core wallet implementation logs |
+| What                  | File             | Description                                                |
+|-----------------------|------------------|------------------------------------------------------------|
+| Configuration         | `settings.json`  | JSON file containing wallet settings                       |
+| Tor program file      | `./tor/*`        | Bundled Tor program files, placed here when Feather starts |
+| Fiat history database | `fiatHistory.db` | Text file with on each row: `YYYYMMDD:<XMR price in USD>`  |
+| Log files             | `libwallet.log*` | Monero core wallet implementation logs                     |
 
 **Exceptions**:
 

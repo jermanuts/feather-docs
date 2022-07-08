@@ -52,3 +52,7 @@ We recommend using the default option unless:
 - Your threat model requires always connecting over Tor
 
 For information see: [Tor support](tor-support) and [Network traffic](network-traffic).
+
+## Do you want to obtain third-party data?
+
+For more information, see: [Websocket](websocket).

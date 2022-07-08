@@ -14,7 +14,7 @@ Go to the **Coins** tab (**View → Show coins**). Frozen coins show a blue back
 
 ### Did you set the correct restore height?
 
-Ignore this section if you restored your wallet using a 14-word seed.
+Ignore this section if you restored your wallet using a Polyseed or 14 word seed.
 
 ### Rescan spent
 
