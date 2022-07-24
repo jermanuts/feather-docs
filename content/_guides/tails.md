@@ -49,17 +49,23 @@ In the file browser, right click on some empty space and select **Open in Termin
 
 In the Terminal enter: `gpg --import featherwallet.asc` and press enter. The output should contain a line that says:
 
-`gpg: key 0x1F76E155CEFBA71C: public key "FeatherWallet <dev@featherwallet.org>" imported`
+```
+gpg: key 0x1F76E155CEFBA71C: public key "FeatherWallet <dev@featherwallet.org>" imported
+```
 
 Now enter: `gpg --list-keys dev@featherwallet.org` and press enter. The output should contain a line that says:
 
-`Key fingerprint = 8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C`
+```
+Key fingerprint = 8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C
+```
 
 Make sure the **fingerprint** shown above matches the output in your terminal. If the fingerprint does not match, do not continue the installation. Instead, [report](report-an-issue) this incident to the developers.
 
 Now enter: `gpg --verify feather-x.x.x.AppImage.asc` and press enter. Replace x.x.x with the correct version. If the signature is valid, the output should contain the following line:
 
-`gpg: Good signature from "FeatherWallet <dev@featherwallet.org>" [unknown]`
+```
+gpg: Good signature from "FeatherWallet <dev@featherwallet.org>" [unknown]
+```
 
 If the signature is invalid, do not continue with the installation. Instead, [report](report-an-issue) this incident to the developers immediately.
 
