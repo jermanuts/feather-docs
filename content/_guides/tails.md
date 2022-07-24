@@ -39,29 +39,31 @@ After the download is complete, move the AppImage to a folder within your persis
 
 This section describes how to verify the AppImage file using PGP.
 
-Download the release signing key from the [git repository](https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/featherwallet.asc).
+Download the release signing key from the [git repository](https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/featherwallet.asc). To save the file from Tor Browser: right click **→ Save Page As.. → Save**.
 
-To save the file from Tor Browser: right click **→ Save Page As.. → Save**.
+Go back to [featherwallet.org/download](https://featherwallet.org/download) and download the **signature** file for the Tails AppImage.
 
-In the file browser, right click on `featherwallet.asc` **→ Open with Import Key**. You will see a notification displaying that key was imported successfully.
+Place both files in the same directory as the AppImage. You should now have a folder that contains `feather-x.x.x.AppImage`, `feather-x.x.x-AppImage.asc` and `featherwallet.asc`.
 
-In the menu bar go to **Applications → Utilities → Passwords and Keys**. 
+In the file browser, right click on some empty space and select **Open in Terminal**.
 
-In the column on the left select "GnuPG keys". Locate the key named "FeatherWallet" and double click it. Go the "Details" tab. Make sure the **fingerprint** matches:
+In the Terminal enter: `gpg --import featherwallet.asc` and press enter. The output should contain a line that says:
 
-```
-8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C
-```
+`gpg: key 0x1F76E155CEFBA71C: public key "FeatherWallet <dev@featherwallet.org>" imported`
 
-If the fingerprint does not match, do not continue the installation. Instead, [report](report-an-issue) this incident to the developers.
+Now enter: `gpg --list-keys dev@featherwallet.org` and press enter. The output should contain a line that says:
 
-Go back to [featherwallet.org/download](https://featherwallet.org/download) and download the **signature** file for the Tails AppImage. After the download is complete, place the file in the same directory as the AppImage.
+`Key fingerprint = 8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C`
 
-In the file browser, right click on the `.asc` file **→ Open with Verify Signature**. If the signature is valid, you will see a notication pop up containing the text "Valid but untrusted signature by FeatherWallet".
+Make sure the **fingerprint** shown above matches the output in your terminal. If the fingerprint does not match, do not continue the installation. Instead, [report](report-an-issue) this incident to the developers.
+
+Now enter: `gpg --verify feather-x.x.x.AppImage.asc` and press enter. Replace x.x.x with the correct version. If the signature is valid, the output should contain the following line:
+
+`gpg: Good signature from "FeatherWallet <dev@featherwallet.org>" [unknown]`
 
 If the signature is invalid, do not continue with the installation. Instead, [report](report-an-issue) this incident to the developers immediately.
 
-After verification is complete you can delete the `.asc` file.
+After verification is complete you can delete both `.asc` files.
 
 ## Starting Feather
 
