@@ -18,6 +18,7 @@ Development is entirely funded through the Monero CCS and by [donations](donate)
 - [Continued Feather Wallet development (Q1 2021)](https://ccs.getmonero.org/proposals/tobtoht_feather_dev_q1_2021.html) by tobtoht
 - [Continued Feather Wallet development (3 months)](https://ccs.getmonero.org/proposals/tobtoht-feather-dev-2021-2.html) by tobtoht
 - [Continued Feather Wallet development (3 months) (nov 2021)](https://ccs.getmonero.org/proposals/tobtoht-feather-dev-2021-3.html) by tobtoht
+- [Continued Feather Wallet development (3 months) (jul 2022)](https://ccs.getmonero.org/proposals/tobtoht-feather-dev-2022-1.html) by tobtoht
 
 ### Goals
 
