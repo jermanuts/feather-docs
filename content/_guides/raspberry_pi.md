@@ -1,6 +1,6 @@
 ---
 title: Installing Feather on Raspberry Pi
-nav_title: Installing Feather on Raspberry Pi
+nav_title: Raspberry Pi
 category: installation
 weight: 200
 ---
