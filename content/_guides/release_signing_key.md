@@ -13,7 +13,7 @@ You may obtain the release signing key from:
   - `gpg --keyserver hkps://keyserver.ubuntu.com --search dev@featherwallet.org`
 - [featherwallet.org](https://featherwallet.org/files/featherwallet.asc)
 
-After importing the key, verify that fingerprint matches: `8185E158A33330C7FD61BC0D1F76E155CEFBA71C`
+After importing the key, verify that the fingerprint matches: `8185E158A33330C7FD61BC0D1F76E155CEFBA71C`
 
 We recommend that you cross-check the fingerprint shown above through the domains listed below. By cross-checking the integrity of the fingerprint across multiple domains you can be confident that you obtained the correct key.
 

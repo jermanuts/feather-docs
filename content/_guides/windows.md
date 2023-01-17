@@ -32,13 +32,14 @@ This section describes how to setup Feather in portable mode. For more informati
 ## Verifying the download
 
 - Download and install [Gpg4win](https://gpg4win.org/)
+  - On the download page, select $0 to download the software for free.
   - During installation, make sure "Kleopatra" is selected on the Choose Components page
 
 ![You may leave "GpgOL" and "GpgEX" unchecked](/static/files/win-gpg-kleopatra.png)
 
 - Obtain Feather's release signing key from the [Git repository](https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/featherwallet.asc).
   - In Tor Browser: Right click → Save Page As...
-  - For alternative ways of obtaining the release signing key, see: [Release signing key](release-signing-key)
+  - (For alternative ways of obtaining the release signing key, see: [Release signing key](release-signing-key))
 
 - In Explorer, double-click on `featherwallet.asc` to import the key in Kleopatra.
 
@@ -58,7 +59,7 @@ This section describes how to setup Feather in portable mode. For more informati
 ![Click "Ok" to move to the next window](/static/files/win-gpg-cert-created.png)
 
 - You will now be asked to verify the fingerprint of Feather's release signing key.
-   - Check that the fingerprint matches: `8185E158A33330C7FD61BC0D1F76E155CEFBA71C`.
+   - **Check that the fingerprint matches**: `8185E158A33330C7FD61BC0D1F76E155CEFBA71C`.
    - We recommend that you also cross-check the fingerprint shown above through the domains listed [here](release-signing-key). By cross-checking the integrity of the fingerprint across multiple domains you can be confident that you obtained the correct key.
    - If the fingerprint does not match, click "Cancel" and do not continue with the installation procedure. Instead, [report](report-an-issue) this incident to the developers immediately.
 
@@ -72,7 +73,7 @@ This section describes how to setup Feather in portable mode. For more informati
   - Place it in the same folder as `FeatherWalletSetup-x.x.x.exe` or `feather-win-x.x.x.zip`
 
 - In Explorer, double-click on the signature file you just downloaded. You should be presented with the following screen in Kleopatra:
-  - The signature is valid if the output contains "**Valid signature from dev@featherwallet.org**".
+  - The signature is valid if the output contains "**Valid signature from dev@featherwallet.org**". You may now proceed with the installation.
   - If the signature is invalid, do not continue with the installation. Instead, [report](report-an-issue) this incident to the developers immediately.
 
 ![Green background = good, anything else = bad](/static/files/win-gpg-verification-success.png)
