@@ -13,7 +13,7 @@ The estimated storage requirement is ~60 MB.
 
 - Download the latest Windows installer from [featherwallet.org/download](https://featherwallet.org/download).
 - Wait for the download to complete
-- (Optional) Verify the download following the instructions below
+- (Optional) Verify the download by following the instructions [below](windows#verifying-the-download)
 - Run `FeatherWalletSetup.exe`.
 - Follow through the screens in the setup wizard.
 - Click 'Finish' to start Feather Wallet.
@@ -24,7 +24,7 @@ This section describes how to setup Feather in portable mode. For more informati
 
 - Download the latest Feather standalone executable from [featherwallet.org/download](https://featherwallet.org/download).
 - Wait for the download to complete
-- (Optional) Verify the download by following the instructions below
+- (Optional) Verify the download by following the instructions [below](windows#verifying-the-download)
 - Move the executable to the desired location (for example: on a USB stick).
 - Create a file named `.portable` or `.portable.txt` in the same folder as the Feather executable.
 - Start Feather by double clicking on the executable.

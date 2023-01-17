@@ -15,7 +15,7 @@ The estimated storage requirement is ~70 MB.
 
 ![Open Feather dmg](/static/files/macos_open_dmg.png)
 
-- (Optional) Verify the download by following the steps in the next section
+- (Optional) Verify the download by following the steps in the [next section](macos#verifying-the-download)
 - In Finder, right-click on the .dmg file → open.
 - Click "feather" under Locations
 
