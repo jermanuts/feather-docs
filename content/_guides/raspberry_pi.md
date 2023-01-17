@@ -33,6 +33,39 @@ Before beginning the installation procedure, please check if your model is suppo
 
 Download the latest AppImage for Raspberry Pi from [featherwallet.org/download](https://featherwallet.org/download). 
 
+## Verifying the download (optional)
+
+This section describes how to verify the AppImage file using PGP. You need a basic understanding of the Linux command line to follow the steps in this section. If you get stuck, feel free to [ask for help](report-an-issue).
+
+Download the release signing key from the [git repository](https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/featherwallet.asc). To save the file from Chromium: right click **→ Save As.. → Save**. (For alternative ways of obtaining the release signing key, see: [Release signing key](release-signing-key))
+
+Go back to [featherwallet.org/download](https://featherwallet.org/download) and download the **signature** file for the AppImage  for Raspberry Pi.
+
+Place both files in the same directory as the AppImage. You should now have a folder that contains `feather-x.x.x-arm.AppImage`, `feather-x.x.x-arm.AppImage.asc` and `featherwallet.asc`.
+
+In a terminal, `cd` to the directory that contains the files and enter: `gpg --import featherwallet.asc` and press enter. The output should contain a line that says:
+
+```
+gpg: key 0x1F76E155CEFBA71C: public key "FeatherWallet <dev@featherwallet.org>" imported
+```
+
+Now enter: `gpg --list-keys dev@featherwallet.org` and press enter. The output should contain a line that says:
+
+```
+Key fingerprint = 8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C
+```
+
+Make sure the **fingerprint** shown above matches the output in your terminal. We recommend that you also cross-check the fingerprint through the domains listed [here](release-signing-key). By cross-checking the integrity of the fingerprint across multiple domains you can be confident that you obtained the correct key.
+
+If the fingerprint does not match, do not continue the installation. Instead, [report](report-an-issue) this incident to the developers.
+
+Now enter: `gpg --verify feather-x.x.x-arm.AppImage.asc` and press enter. Replace x.x.x with the correct version. If the signature is valid, the output should contain the following line:
+
+```
+gpg: Good signature from "FeatherWallet <dev@featherwallet.org>" [unknown]
+```
+
+If the signature is invalid, do not continue with the installation. Instead, [report](report-an-issue) this incident to the developers immediately.
 ## Starting Feather
 
 Right click on the AppImage **→ Properties → Permissions**. Set "Execute" to "Anyone", close the window.
