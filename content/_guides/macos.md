@@ -73,7 +73,7 @@ Click cancel, and try opening Feather again. This time you should have an option
 
 ![](/static/files/macos-gpg-sign-release-key-success.png)
 
-- Download the `signature` for the macOS release you downloaded earlier from [featherwallet.org/download](https://featherwallet.org/download/)
+- Go back to [featherwallet.org/download](https://featherwallet.org/download) and download the **signature** file for the release you downloaded earlier.
   - Place it in the same folder as `feather-x.x.x.dmg`
 
 - Right-click on the `feather-x.x.x.dmg.asc` signature file → Open With → GPG Services.service
