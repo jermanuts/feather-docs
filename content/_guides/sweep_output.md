@@ -8,7 +8,7 @@ Make sure the **Coins** tab is enabled: **View → Show Coins**.
 
 On the **Coins** tab, select one or more outputs to sweep. To select multiple outputs hold the Ctrl-key.
 
-Right click on a selected output **→ Sweep Output(s)**. A new dialog will open.
+Right-click on a selected output **→ Sweep Output(s)**. A new dialog will open.
 
 In the **Address** field, enter the address you want to sweep the coins to. Alternatively, check "Send to self (churn)" to send the output to your primary address.
 

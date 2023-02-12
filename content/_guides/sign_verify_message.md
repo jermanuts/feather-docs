@@ -10,7 +10,7 @@ Go to **Tools → Sign/verify message**.
 
 In the **Message** textbox, enter the message you want to sign. You may enter multiple lines. Special characters are allowed. You may leave this field blank if you only want to prove ownership of an address.
 
-In the **Address** textbox, enter the address you want to sign the message with. By default your wallet's primary address is filled in. You may enter any (sub)address belonging to your wallet.
+In the **Address** textbox, enter the address you want to sign the message with. By default, your wallet's primary address is filled in. You may enter any (sub)address belonging to your wallet.
 
 Click **Sign** to sign the message. Click **Copy to clipboard** to copy all fields to your clipboard. 
 

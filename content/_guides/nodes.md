@@ -14,7 +14,7 @@ A **remote node** is a node that is accessible on a public network. Typically, a
 
 By default, Feather connects to a random node from a curated list of high performance remote nodes run by trusted members of the Monero community. When Feather is started for the first time, you have the option to configure how to wallet will connect to a node **before** any connections are made.
 
-You can change how Feather connect by going to **File → Settings → Nodes**.
+You can change how Feather connect by going to **Settings → Network → Nodes**.
 
 
 If you would like to set up your own public node, see this [excellent guide](https://sethforprivacy.com/guides/run-a-monero-node/) by Seth.
@@ -35,7 +35,7 @@ However, a malicious remote node can:
 
 - execute an attack that may reveal the true input of a transaction. This attack does not reveal how much is spent or to whom. This attack has a low chance of succeeding and Feather will warn you if it detects this attack.
 - make your outgoing transactions stick out by manipulating the transaction fee that you pay.
-- associate your outgoing transactions with your IP address (but only if all traffic is routed through clearnet, see [Tor support](tor-support) for more information. By default transactions are broadcast over Tor.)
+- associate your outgoing transactions with your IP address (but only if all traffic is routed through clearnet, see [Tor support](tor-support) for more information. By default, transactions are broadcast over Tor.)
 
 ---
 

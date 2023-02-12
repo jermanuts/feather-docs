@@ -19,9 +19,9 @@ On the next page, the wallet seed is shown. You may notice that the seed is shor
 
 The seed allows you to recover your funds in case you lose access to your wallet files. DO NOT LOSE IT.
 
-Click **next** after you have verified that the **you have written down all words in the correct order**.
+Click **next** after you have verified that **you have written down all words in the correct order**.
 
-In the **Name** field, type a name for your wallet. You may name the wallet whatever you want. Feather will automatically fill-in a name that hasn't already been used.
+In the **Name** field, type a name for your wallet. You may name the wallet whatever you want. Feather will automatically fill in a name that hasn't already been used.
 
 The **Directory** field shows the default location for the wallet files. We recommend leaving it as the default. If you want to store all files relative to the executable, follow the steps [here](portable-mode) to enable portable mode.
 

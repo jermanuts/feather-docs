@@ -13,7 +13,7 @@ It does not matter which address you choose, funds received to any of the addres
 
 It is best practice to label an address before you copy it. This way you avoid accidentally reusing the address. You should label the address with the name of the person or service that will know about the address. Do not hand out addresses to more parties than necessary. For addresses that are shared publicly enter where it will be shared or the alias/pseudonym under which it will be shared.
 
-Copy the address to your clipboard by right clicking on an address **→ Copy Address** or by pressing `Ctrl + C`. **Never write down an address by hand**, a mistake may result in unrecoverable funds.
+Copy the address to your clipboard by right-clicking on an address **→ Copy Address** or by pressing `Ctrl + C`. **Never write down an address by hand**, a mistake may result in unrecoverable funds.
 
 If you need to transfer the address to a different device, here are some options:
 

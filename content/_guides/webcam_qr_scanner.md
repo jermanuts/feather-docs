@@ -27,4 +27,4 @@ Try restarting your machine and reseat the USB cable if applicable. Can other pr
 
 ### "Feather was built without webcam QR scanner support"
 
-The webcam QR scanner is not currently supported on Linux standalone release binaries. Please use the AppImage if you want to use this feature on Linux.
+All official releases should have webcam QR scanner support enabled. If you are using an unofficial release, ask the package maintainer to enable webcam scanner support.

@@ -6,7 +6,7 @@ category: troubleshooting
 
 Use this guide if an outgoing transaction shows status "Failed" in the **History** tab.
 
-Right click on the failed transaction **→ Resend transaction**. Click **Broadcast** to submit the transaction to the selected node.
+Right-click on the failed transaction **→ Resend transaction**. Click **Broadcast** to submit the transaction to the selected node.
 
 Check a block explorer (e.g. [xmrchain.net](https://xmrchain.net/txpool)) to verify that the transaction has reached the transaction pool. Try resending the transaction using a different node if it does not show up within a few minutes.
 

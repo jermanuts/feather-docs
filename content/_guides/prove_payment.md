@@ -8,7 +8,7 @@ category: howto
 
 OutProofs are the preferred way to prove a payment to an address.
 
-Go to the **History** tab. Right click on the transaction that includes the payment you want to prove, then click **Create tx proof**. Select "Prove payment to an address". Add a message if required, and make sure to select the correct destination address.
+Go to the **History** tab. Right-click on the transaction that includes the payment you want to prove, then click **Create tx proof**. Select "Prove payment to an address". Add a message if required, and make sure to select the correct destination address.
 
 To export your proof as a PGP-like message, click **Get Formatted Proof**. Note that only Feather Wallet currently supports this format. If the recipient does not use Feather Wallet, click **Get Signature**. 
 

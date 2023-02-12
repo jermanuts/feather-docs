@@ -29,6 +29,7 @@ Feature comparison between Monero desktop wallets.
 | Hide balance                                                                                | ✔                        | ✖               | ✔               |
 | Output blackballing                                                                         | ✖                        | ✔               | ✔               |
 | Lock on inactivity                                                                          | ✔                        | ✔               | ✔               |
+| Lock on minimize                                                                            | ✔                        | ✖               | ✖               |
 | **► Proofs / Messages**                                                                     |
 | [Sign/verify message](sign-verify-message)                                                  | ✔                        | ✔               | ✔               |
 | [Verify transaction proof](verify-tx-proof)                                                 | ✔                        | ✔               | ✔               |

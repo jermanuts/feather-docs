@@ -27,7 +27,7 @@ This section describes how to setup Feather in portable mode. For more informati
 - (Optional) Verify the download by following the instructions [below](windows#verifying-the-download)
 - Move the executable to the desired location (for example: on a USB stick).
 - Create a file named `.portable` or `.portable.txt` in the same folder as the Feather executable.
-- Start Feather by double clicking on the executable.
+- Start Feather by double-clicking on the executable.
 
 ## Verifying the download
 

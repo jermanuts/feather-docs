@@ -8,11 +8,11 @@ The websocket server is a service hosted by the Feather developers that provides
 
 It is used by the wallet to obtain pricing information, CCS & Reddit feeds, a curated list of remote nodes, the latest version of Feather Wallet and more. For more details view the table below.
 
-The websocket server is only used to fetch information. The wallet does not send information about its state or the transactions you send to the websocket server. It is not used for any telemetry or crash reports. The wallet does not send an unique client id.
+The websocket server is only used to fetch information. The wallet does not send information about its state or the transactions you send to the websocket server. It is not used for any telemetry or crash reports. The wallet does not send a unique client id.
 
-The websocket server is only accessible via a v3 onion service, as such the wallet always uses Tor to connect to it. This way your IP Address is not leaked to the websocket server.
+By default, Feather connects to the websocket server over Tor, unless configured otherwise in the proxy settings. This way your IP Address is not leaked to the websocket server.
 
-This architecture was chosen for the simple reason that connecting to a single hidden service leaks significantly less metadata to third parties than connecting to  multiple clearnet services over Tor. 
+This architecture was chosen for the simple reason that connecting to a single service leaks significantly less metadata than connecting to multiple third party services. 
 
 When Feather starts it requests all available data. Clients cannot be fingerprinted based on their configuration. The server pushes updates when they become available.
 
@@ -20,7 +20,7 @@ The Feather developers can infer no information about any client, apart from:
 
 - The total number of active connections to the websocket server.
 - The time at which a client connects or disconnects
-- Whether or not a client has previously connected
+- Whether a client has previously connected
 
 None of the above is actively tracked or recorded on the server.
 
@@ -45,12 +45,12 @@ The following data is provided by the websocket server:
 
 ### Disabling the websocket connection
 
-We recognize that despite the privacy and security measures laid out above users with high threat models or those that enjoy a more minimal expierence would like to disable the websocket connection. 
+We recognize that despite the privacy and security measures laid out above users with high threat models or those that enjoy a more minimal experience would like to disable the websocket connection. 
 
-As of v2.0.0 the initial setup wizard includes a page that allows users to disable the websocket server before any connection is made. Users that have upgraded from a lower version can disable the websocket connection by following the instruction below:
+The initial setup wizard includes a page that allows users to disable the websocket server before any connection is made. Users that have upgraded from a lower version can disable the websocket connection by following the instruction below:
 
-- Go to File → Settings → Privacy.
-- Check "Disable websocket". 
+- Go to Settings → Network → Websocket.
+- Uncheck "Enable websocket connection". 
 
 This will immediately disable the websocket connection. This setting is persisted. The websocket connection can be re-enabled at any time. Some functionality that relies on the websocket server will be disabled.
 
@@ -60,5 +60,5 @@ The following functionality will be disabled:
 
 - Send: send by specifying a fiat amount
 - History: historical fiat prices column
-- Settings → Node: updated list of websocket nodes.
+- Settings → Network → Node: updated list of websocket nodes.
 - Mining → Downloads: the list of XMRig downloads will be unavailable.

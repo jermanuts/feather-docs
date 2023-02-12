@@ -26,6 +26,6 @@ Go to **Wallet → Advanced → Export → Key Images**. Enter a name for the fi
 
 ### Importing key images
 
-Go to **Wallet → Advanced → Import → Key Images**. Select the `_keyImages` file to open, a dialog should pop-up informing you that the import was successful.
+Go to **Wallet → Advanced → Import → Key Images**. Select the `_keyImages` file to open, a dialog should pop up informing you that the import was successful.
 
 Coins with a known key image will show an Eye icon in the **Coins** tab.

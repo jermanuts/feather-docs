@@ -12,4 +12,4 @@ If the address already exists in the contacts list its entry will be updated wit
 
 ### Paying to a contact
 
-Right click on the contact **→ Pay to**, this will auto-fill the associated address into the **Pay to** field.
+Right-click on the contact **→ Pay to**, this will autofill the associated address into the **Pay to** field.

@@ -6,7 +6,7 @@ category: howto
 
 To start Feather in portable mode: 
 
-- Create a file named `.portable` or `.portable.txt` in the same folder as the Feather program file. 
+- Create a file named `.portable` or `portable.txt` in the same folder as the Feather program file. 
 
 Feather will detect this file when it starts and enable portable mode.
 

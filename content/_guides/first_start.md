@@ -33,7 +33,7 @@ We recommend using this option for **most** users.
 
 If you do not want to connect to one the built-in nodes, select **Select node manually**.
 
-Enter the address and port in the textbox. For example: `node.melo.tools:18081`.
+Enter the address and port in the textbox. For example: `node.community.rino.io:18081`.
 
 ### Connecting to a local node
 
