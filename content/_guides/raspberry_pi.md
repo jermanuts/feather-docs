@@ -31,7 +31,9 @@ Before beginning the installation procedure, please check if your model is suppo
 
 ## Downloading Feather
 
-Download the latest AppImage for Raspberry Pi from [featherwallet.org/download](https://featherwallet.org/download). 
+Download the latest AppImage for Raspberry Pi from [featherwallet.org/download](https://featherwallet.org/download).
+
+Currently the 32bit version AppImage for Raspberry Pi is listed on the official download page. You can find more builds such as arm64 on [featherwallet.org/files/releases](https://featherwallet.org/files/releases/).
 
 ## Verifying the download (optional)
 
@@ -73,5 +75,9 @@ Right click on the AppImage **→ Properties → Permissions**. Set "Execute" to
 Again, right click on the AppImage **→ Open With → Accessories → Terminal**.
 
 To start Feather, right click on the AppImage **→ Open**. Then click **Execute** if prompted.
+
+If your system prevents you from changing the "Execute" permission, you can issue this command in your Terminal: chmod ugo-wrx [FullNameOfTheFeatherWallet]
+
+If still you can't run Feather wallet, try to execute on Terminal by ```./feather.AppImage``` or ```/path/to/featherwallet.AppImage``` (The file name of Feather has been shortened for simplicity). In this way any possible issues with the missing packages can be revealed.
 
 Having trouble getting Feather to start? Please [contact](report-an-issue) the developers.
