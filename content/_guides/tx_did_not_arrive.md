@@ -1,5 +1,5 @@
 ---
-title: "Help: transaction did not arrive'
+title: "Help: transaction did not arrive"
 nav_title: Transaction did not arrive
 category: troubleshooting
 ---
