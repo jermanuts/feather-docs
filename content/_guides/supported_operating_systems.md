@@ -2,15 +2,16 @@
 title: Supported Operating Systems
 nav_title: Supported Operating Systems
 category: installation
+weight: 1000
 ---
 
 Official Feather builds run on the following operating systems:
 
-| Operating System | Minimum version                                           | Architecture               | 
-|------------------|-----------------------------------------------------------|----------------------------|
-| Linux            | [glibc 2.27](https://repology.org/project/glibc/versions) | x64, arm32, arm64, riscv64 |
-| Windows          | [10](https://endoflife.date/windows), version 21H2        | x64                        |
-| macOS            | [10.14](https://endoflife.date/macos)                     | Intel, Apple Silicon       |
+| Operating System | Minimum version                                            | Architecture               | 
+|------------------|------------------------------------------------------------|----------------------------|
+| Linux            | [glibc 2.27](https://repology.org/project/glibc/versions)  | x64, arm32, arm64, riscv64 |
+| Windows          | [10](https://endoflife.date/windows), version 21H2         | x64                        |
+| macOS            | [10.14](https://endoflife.date/macos) (Mojave)             | Intel, Apple Silicon       |
 
 It is strongly recommended that you run the latest version of Feather on an updated and supported operating system from 
 a vendor you trust.
