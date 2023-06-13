@@ -14,8 +14,8 @@ Make sure your hardware device is connected to your computer.
 
 If you are using Linux, make sure you have applied the appropriate udev rules to allow device access:
 
-**Ledger**: [https://help.vault.ledger.com/Content/troubleshooting.html](https://help.vault.ledger.com/Content/troubleshooting.html)  
-**Trezor**: [https://wiki.trezor.io/Udev_rules](https://wiki.trezor.io/Udev_rules)
+**Ledger**: [https://github.com/LedgerHQ/udev-rules/blob/master/add_udev_rules.sh](https://github.com/LedgerHQ/udev-rules/blob/master/add_udev_rules.sh)  
+**Trezor**: [https://trezor.io/learn/a/udev-rules](https://trezor.io/learn/a/udev-rules)
 
 ---
 
