@@ -11,18 +11,16 @@ The estimated storage requirement is ~70 MB.
 
 ### Installing Feather
 
-- Download the latest .dmg from [featherwallet.org/download](https://featherwallet.org/download).
-
-![Open Feather dmg](/static/files/macos_open_dmg.png)
-
+- Download the latest Application Bundle from [featherwallet.org/download](https://featherwallet.org/download).
 - (Optional) Verify the download by following the steps in the [next section](macos#verifying-the-download)
-- In Finder, right-click on the .dmg file → open.
-- Click "feather" under Locations
 
-![Drag the Feather app to Applications](/static/files/macos_install.png)
+![Open Feather zip](/static/files/macos-extract-zip.png)
 
-- Drag the Feather app to Applications
+- If the .zip file is not already extracted, right-click on the .zip file → open.
 
+![Feather app bundle](/static/files/macos-app-bundle.png)
+
+- Drag Feather app into "Applications" in the sidebar.
 - Go to Applications
 - Right click on Feather -> Open
 
@@ -74,9 +72,9 @@ Click cancel, and try opening Feather again. This time you should have an option
 ![](/static/files/macos-gpg-sign-release-key-success.png)
 
 - Go back to [featherwallet.org/download](https://featherwallet.org/download) and download the **signature** file for the release you downloaded earlier.
-  - Place it in the same folder as `feather-x.x.x.dmg`
+  - Place it in the same folder as `feather-x.x.x.zip`
 
-- Right-click on the `feather-x.x.x.dmg.asc` signature file → Open With → GPG Services.service
+- Right-click on the `feather-x.x.x.zip.asc` signature file → Open With → GPG Services.service
 
 ![](/static/files/macos-gpg-verify-release.png)
 
