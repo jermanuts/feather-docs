@@ -14,7 +14,7 @@ The estimated storage requirement is ~70 MB.
 - Download the latest Application Bundle from [featherwallet.org/download](https://featherwallet.org/download).
 - (Optional) Verify the download by following the steps in the [next section](macos#verifying-the-download)
 
-![Open Feather zip](/static/files/macos-extract-zip.png)
+![Open Feather zip](/static/files/macos-zip-extract.png)
 
 - If the .zip file is not already extracted, right-click on the .zip file → open.
 
