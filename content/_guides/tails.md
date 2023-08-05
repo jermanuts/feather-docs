@@ -59,7 +59,9 @@ Now enter: `gpg --list-keys dev@featherwallet.org` and press enter. The output s
 Key fingerprint = 8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C
 ```
 
-Make sure the **fingerprint** shown above matches the output in your terminal. If the fingerprint does not match, do not continue the installation. Instead, [report](report-an-issue) this incident to the developers.
+Make sure the **fingerprint** shown above matches the output in your terminal. Only the letters and digits matter, you may ignore any extra or missing spaces. 
+
+If the fingerprint does not match, do not continue the installation. Instead, [report](report-an-issue) this incident to the developers.
 
 Now enter: `gpg --verify feather-x.x.x.AppImage.asc` and press enter. Replace x.x.x with the correct version. If the signature is valid, the output should contain the following line:
 

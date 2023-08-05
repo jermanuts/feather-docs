@@ -62,6 +62,7 @@ Click cancel, and try opening Feather again. This time you should have an option
 
 - In GPG Tools, right-click on key named FeatherWallet and select "Sign"
   - **Check that the fingerprint matches**: `8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C`
+  - Only the letters and digits matter, you may ignore any extra or missing spaces.
   - We recommend that you also cross-check the fingerprint shown above through the domains listed [here](release-signing-key). By cross-checking the integrity of the fingerprint across multiple domains you can be confident that you obtained the correct key.
   - If the fingerprint does not match, click "Cancel" and do not continue with the installation procedure. Instead, [report](report-an-issue) this incident to the developers immediately.
   - You may leave "Publish" unchecked.
