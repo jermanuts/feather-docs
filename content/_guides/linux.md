@@ -7,6 +7,47 @@ weight: 100
 
 Using **TailsOS?** See the instructions [here](tails) instead.
 
+## Flatpak
+
+### Install
+
+```
+flatpak install --from https://featherwallet.org
+```
+
+### Verify (recommended)
+
+Authenticate the GPG key to verify that the Flatpak is genuine.
+
+```
+gpg --show-keys --with-fingerprint /var/lib/flatpak/repo/feather.trustedkeys.gpg
+```
+
+The output should contain a line that says:
+
+```
+Key fingerprint = 8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C
+```
+
+Make sure the fingerprint shown above matches the output in your terminal. Only the letters and digits matter, you may ignore any extra or missing spaces.
+
+We recommend that you cross-check the fingerprint through the domains listed [here](release-signing-key). This way you can be confident that you obtained the correct key.
+
+If any of the fingerprints don't match:
+
+- Delete the application (`flatpak remote-delete feather`), and
+- [Report](report-an-issue) this incident to the developers immediately.
+
+### Run
+
+Click the shortcut in your application menu, or:
+
+```
+flatpak run org.featherwallet.Feather
+```
+
+---
+
 ## AppImage
 
 Download the latest AppImage for Linux from [featherwallet.org/download](https://featherwallet.org/download).
@@ -56,42 +97,6 @@ Having trouble getting Feather to start? Please [contact](report-an-issue) the d
 
 ---
 
-## Flatpak (beta)
-
-### Add the official repository
-
-```
-flatpak remote-add feather https://featherwallet.org/flatpak/.flatpakrepo
-```
-
-### Verify the GPG key (optional)
-
-```
-gpg --with-fingerprint /var/lib/flatpak/repo/feather.trustedkeys.gpg
-```
-
-If the repository was added with the `--user` option, the file will be located at `~/.local/share/flatpak/repo/feather.trustedkeys.gpg` instead.
-
-The output should contain a line that says:
-
-```
-Key fingerprint = 8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C
-```
-
-Make sure the fingerprint shown above matches the output in your terminal. We recommend that you also cross-check the fingerprint through the domains listed [here](release-signing-key). By cross-checking the integrity of the fingerprint across multiple domains you can be confident that you obtained the correct key.
-
-If the fingerprints don't match, do not continue with the installation. Instead, delete the remote (`flatpak remote-delete feather`) and [report](report-an-issue) this incident to the developers immediately.
-
-### Install Feather
-
-```
-flatpak install org.featherwallet.Feather
-```
-
-If asked which remote to download from, make sure to select `feather`.
-
----
-
 ## Arch Linux
 
 Feather is available on the [AUR](https://aur.archlinux.org/packages/monero-feather-git).
@@ -109,7 +114,3 @@ git clone https://aur.archlinux.org/monero-feather-git.git
 cd monero-feather-git
 makepkg -si
 ```
-
---- 
-
-Want to help package Feather for your distribution? Join us in `#feather` on OFTC.
