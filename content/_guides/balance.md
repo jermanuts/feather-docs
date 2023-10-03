@@ -4,7 +4,7 @@ nav_title: Balance
 category: faq
 ---
 
-The balance for your currently selected [account](account) is shown in the statusbar. You can click the balance label for a more detailed overview.
+The balance for your currently selected [account](accounts) is shown in the statusbar. You can click the balance label for a more detailed overview.
 
 You can change the way the balance is displayed in the settings. (Settings → Appearance → Balance display).
 
