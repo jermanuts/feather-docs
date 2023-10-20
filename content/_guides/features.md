@@ -81,7 +81,6 @@ Feature comparison between Monero desktop wallets.
 | Atomic swaps                                                                                | ✖*                       | ✖               | ✖               |
 | Adjustable subaddress lookahead                                                             | ✖                        | ✔               | ✔<sup>[8]</sup> |
 | Local node manager                                                                          | ✖                        | ✖               | ✔               |
-| [RPC Payments](rpc-payments)                                                                | ✖†                       | ✔               | ✖               |
 | Merchant mode                                                                               | ✖†                       | ✖               | ✔               |
 
 **\*** = not yet  
