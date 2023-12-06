@@ -14,5 +14,5 @@ It is not possible at this time to change the network mode from within the Feath
 
 You can quickly obtain free stagenet / testnet coins for testing purposing by using a faucet.
 
-**Stagenet**: [https://melo.tools/faucet/stagenet/](https://melo.tools/faucet/stagenet/)  
-**Testnet**: [https://melo.tools/faucet/testnet/](https://melo.tools/faucet/testnet/)
+**Stagenet**: [https://tools.rino.io/faucet/stagenet/](https://tools.rino.io/faucet/stagenet/)  
+**Testnet**: [https://tools.rino.io/faucet/testnet/](https://tools.rino.io/faucet/testnet/)

@@ -18,3 +18,5 @@ Saving the wallet files with a new password in many cases [does not overwrite th
 
 Please note: wallet recovery is heavily dependent on file system, storage device and operating system. No standard solution exists and recovery attempts are not supported by the Feather developers.
 
+
+

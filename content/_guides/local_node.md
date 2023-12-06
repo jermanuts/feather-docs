@@ -4,7 +4,7 @@ nav_title: Connect to local node
 category: howto
 ---
 
-Go to **Settings → Network → Node**. Select "From custom list". Click "Add custom node(s)". In the textbox enter the `IP:port` of your local node.
+Go to **Settings → Network → Node**. Uncheck **Let Feather manage this list**. Click "Add custom node(s)". In the textbox enter the `IP:port` of your local node.
 
 A node that runs on the same machine as Feather will be accessible on IP: `127.0.0.1`. The table below shows the default port for monerod depending on the network:
 

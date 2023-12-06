@@ -45,14 +45,15 @@ Feature comparison between Monero desktop wallets.
 | Sweep all                                                                                   | ✔                        | ✔               | ✖               |
 | Output splitting                                                                            | ✔                        | ✔               | ✖               |
 | Manual input selection                                                                      | ✔                        | ✖               | ✖               |
+| Coin labeling                                                                               | ✔                        | ✖               | ✖               |
 | **► Transactions**                                                                          |
 | [Multi-destination transactions](pay-to-many)                                               | ✔                        | ✔               | ✔               |
 | [Transaction pusher](push-tx)                                                               | ✔                        | ✖               | ✖               |
-| [Manual transaction import](missing-tx)                                                     | ✔                        | ✔               | 	✔              |
+| [Manual transaction import](missing-tx)                                                     | ✔                        | ✔               | ✔               |
 | [Transaction rebroadcasting](failed-tx)                                                     | ✔                        | ✖               | ✖               |
 | Multibroadcasting                                                                           | ✔                        | ✖               | ✖               |
 | [Offline transaction signing](offline-tx-signing)                                           | ✔                        | ✔               | ✔               |
-| Unified Resources                                                                           | ✖*                       | ✖               | ✖               |
+| ... using animated QR codes                                                                 | ✔                        | ✖               | ✖               |
 | Transaction unlock time                                                                     | ✖†                       | ✔               | ✖               |
 | Automatic network fee adjustment                                                            | ✔                        | ✔               | ✔               |
 | Manual network fee adjustment                                                               | ✖<sup>[5]</sup>          | ✔               | ✔               |
@@ -63,7 +64,7 @@ Feature comparison between Monero desktop wallets.
 | P2Pool                                                                                      | ✖*                       | ✖               | ✔               |
 | **► Hardware wallets**                                                                      |
 | Ledger Nano S/S+/X                                                                          | ✔                        | ✔               | ✔               |
-| Trezor Model T                                                                              | ✔                        | ✔               | ✔               |
+| Trezor Model T/Safe 3                                                                       | ✔                        | ✔               | ✔               |
 | **► Fiat**                                                                                  |
 | Crypto/fiat calculator                                                                      | ✔                        | ✖               | ✖               |
 | Historical fiat prices                                                                      | ✔                        | ✖               | ✖               |
@@ -75,11 +76,11 @@ Feature comparison between Monero desktop wallets.
 | [Export history as CSV](export-tx-history)                                                  | ✔                        | ✔               | ✔               |
 | Auto-open passwordless wallets                                                              | ✔                        | ✖               | ✖               |
 | Copy-pasteable support template                                                             | ✔                        | ✖               | ✖               |
-| Open multiple wallets  in single instance                                                   | ✔                        | ✖               | ✖               |
-| Multi-node syncing                                                                          | ✖*                       | ✖               | ✖               |
+| Open multiple wallets in single instance                                                    | ✔                        | ✖               | ✖               |
+| Extra entropy from dice rolls                                                               | ✔                        | ✖               | ✖               |
 | Mass address export                                                                         | ✖*                       | ✖               | ✖               |
 | Atomic swaps                                                                                | ✖*                       | ✖               | ✖               |
-| Adjustable subaddress lookahead                                                             | ✖                        | ✔               | ✔<sup>[8]</sup> |
+| Adjustable subaddress lookahead                                                             | ✔                        | ✔               | ✔<sup>[8]</sup> |
 | Local node manager                                                                          | ✖                        | ✖               | ✔               |
 | Merchant mode                                                                               | ✖†                       | ✖               | ✔               |
 

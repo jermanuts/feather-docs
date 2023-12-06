@@ -6,7 +6,7 @@ category: troubleshooting
 
 Use this guide if you are expecting an incoming transaction, but it hasn't shown up yet.
 
-### Is your wallet up-to-date?
+### Is Feather up-to-date?
 
 Some Monero protocol updates are backwards incompatible, old wallet versions stop working eventually. New wallet versions may also contain important bugfixes and security updates.
 
@@ -38,7 +38,7 @@ If the transaction shows up on a block explorer, follow the steps to [manually i
 
 ### Verify the address
 
-If you tried manually importing the transaction and it told you that the transaction doesn't belong to your wallet, please verify that the address you sent the funds to belongs to your wallet.
+If you tried manually importing the transaction, and it told you that the transaction doesn't belong to your wallet, please verify that the address you sent the funds to belongs to your wallet.
 
 Go to **Tools → Address checker**, enter the address you sent the funds to. If it tells you that the address does not belong to your wallet, a few things could have happened:
 

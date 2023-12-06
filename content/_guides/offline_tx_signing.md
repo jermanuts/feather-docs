@@ -4,87 +4,156 @@ nav_title: Offline transaction signing
 category: advanced
 ---
 
-Offline transaction signing is a method of signing transactions without exposing the private spend key to a computer that is connected to the internet. Conceptually, it is similar to how a hardware wallet functions, except the process is done manually.
+To troubleshoot common issues, see [Help: Airgapped signing issues](airgapped-signing-issues).
+
+Offline transaction signing (or airgapped signing) is a method of signing transactions without exposing the private spend key to a computer that is connected to the internet. Conceptually, it is similar to how a hardware wallet functions, except the process is done manually.
 
 Two devices are required: one device connected to the internet that hosts a view-only wallet ("the online device"), and a second [airgapped](https://en.wikipedia.org/wiki/Air_gap_%28networking%29) device that hosts a corresponding wallet containing the secret spendkey ("the offline device"). The offline device is typically a laptop or desktop computer stripped of any network interfaces that is used exclusively for the purpose of offline transaction signing.
 
-The procurement and setup of the offline device is outside of the scope of this guide. However, we recommend installing a lightweight linux distribution with an [encrypted filesystem](https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system) on the offline device.
+The procurement and setup of the offline device is outside the scope of this guide. However, we recommend installing a lightweight linux distribution with an [encrypted filesystem](https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system) on the offline device.
 
-Transactions are constructed using the view-only wallet on the online device, then signed with the spendable wallet on the offline device and later broadcast to the network using the view-only wallet on the online device or via another means such as a [transaction pusher](https://xmrchain.net/rawtx).
+Transactions are constructed using the view-only wallet on the online device, then signed with the offline wallet on the offline device and later broadcast to the network using the view-only wallet on the online device or via another means such as a [transaction pusher](https://xmrchain.net/rawtx).
 
-Common ways to transfer files between computers are: USB flash drives, SD cards or QR Codes. In this guide we will assume files will be transferred between devices using files on a flash drive.
+Feather supports two airgapped transaction signing methods:
+
+- Using a webcam to scan **animated QR code** (Uniform Resources, or **UR** for short)
+- By transfering **files** between computers (using a flash drive or SD card) 
+
+For this guide we assume you will be using animated QR codes.
+
+### A note on webcams
+
+You will need to scan QR codes using both devices. We recommend getting two (cheap) detachable USB webcams, one for each 
+device. If you are short on budget, get one USB webcam that you can switch between devices. A resolution of 720P is sufficient.
+
+It's possible to use a laptop's built-in webcam for one side, but this is less practical. You may need to hold up your laptop in front of the other screen to get it to scan a QR code.
 
 ## Initial Setup
 
-### Create a new offline wallet
+### Creating a new offline wallet
 
-On an offline device, [create a new wallet](create-wallet).
+![Enable offline mode](/static/files/airgap_offline_mode.png)
 
-Go to **Wallet → View-Only**. Save the following information to a text file on your flash drive:
+On the offline device, go to **Settings → Network → Offline**. Make sure '**Disable all network connections (offline mode)**' is checked.
 
-- Restore height
-- Primary address
-- Secret view key
+Then, [create a new wallet](create-wallet). Do not forget the write-down your seed and store it in a secure place.
 
-Click **Copy** to copy all required information to your clipboard.
+After opening the wallet, your UI should look like this: 
 
-### Create a new view-only wallet
+![Offline mode](/static/files/airgap_mode.png)
 
-On the online device, follow the steps [here](create-view-only-wallet) to create a view-only wallet using the information saved in the previous step.
+Note that you are not able to access your transaction history or balance from the offline wallet. It does not store 
+transaction records or outputs (even imported ones), as it is unable to keep an accurate history due to it not being 
+connected to a node. You can view your transaction history in the view-only wallet.
 
-## Syncing the wallets
+### Creating a view-only wallet
 
-After the wallet has received a transaction it is necessary to sync the wallets.
+Now that you have your offline wallet set up, you need to create a corresponding view-only wallet on the online device.
 
-You can check if syncing is needed by going to the **Coins** tab on the view-only wallet. If there are coins that show a crossed-out eye symbol, syncing is needed.
+Three pieces of information are required for this: secret view key, primary address, and restore height.
 
-Follow the steps below to sync the wallets.
+The easiest way to transfer this information to your online device is by using a UR (animated QR code).
 
-#### Export outputs
+![Press view-only details](/static/files/airgap_mode_viewonly.png)
 
-On the view-only wallet, go to **Wallet → Advanced → Export → Outputs**. Save the file on the flash drive.
+![Transmit over UR](/static/files/airgap_transmit.png)
 
-#### Import outputs
+Press **View-only details**, then press **Transmit over UR**.
 
-Transfer the flash drive to the **offline** device.
+This will pop up a dialog with an animated QR code that covers most of the screen. Big QR codes are easier to scan.
 
-On the offline wallet, go to **Wallet → Advanced → Import → Outputs**. Select the file saved in the previous step.
+![Restore wallet from keys](/static/files/airgap_menu.png)
 
-#### Export Key Images
+On the **online** device, open the wizard and select **Restore wallet from keys** and press **Next**.
 
-On the offline wallet, go to **Wallet → Advanced → Export → Key Images**. Save the file on the flash drive.
+![Scan UR](/static/files/airgap_restore.png)
 
-#### Import Key Images
+Press **Scan UR**. A dialog will show up that looks like this:
 
-Transfer the flash drive to the **online** device.
+![Scanning UI](/static/files/airgap_scan.png)
 
-On the view-only wallet, go to **Wallet → Advanced → Import → Key Images**. Select the file saved in the previous step.
+Familiarize yourself with the scanning UI:
 
-Go to the **Coins** tab, and make sure all outputs have an eye symbol.
+1. If you have multiple cameras, you can click here to switch between cameras
+2. You can click on 'Refresh' to refresh the list of cameras
+3. This progress bar will fill up as you scan fragments. If it appears to get stuck on 99%, keep scanning.
+4. If you have trouble scanning the QR code due to glare, you can enable manual exposure here if your camera supports it. Use the slider to adjust the exposure level.
 
+Scan the code shown on the offline device. If everything went right, the dialog should close automatically on completion 
+and autofill the view-only details.
+
+If you have trouble scanning the QR code, see [Help: Airgapped signing issues](airgapped-signing-issues) for tips.
+
+Step through the wizard. 
+
+- You do not need to adjust the restore height.
+- You may choose a different wallet name.
+- Remember to set a strong password.
+
+## Fund your wallet
+
+On the view-only wallet, go to the **Receive** tab and copy an unused address. Or see [Primary adress](primary-adress) if you need your wallet's primary address.
+
+If you assume that the **view-only** is compromised, you can verify the address using the offline wallet.
+
+- On the **offline** wallet, click **Show address**.
+- Enter the index of the address. You can find this number on the **Receive** tab of the **view-only** wallet, to the left of the address.
+- Verify that the address matches.
 
 ## Sending a transaction
 
-### Construction
+To initiate an airgapped transaction, try to [send a transaction](create-transaction) on your view-only wallet.
 
-[Create a transaction](create-transaction) on the view-only wallet.
+A wizard will pop up showing an animated QR code.
 
-Click on **Export unsigned → Save to File**. Save the file to the flash drive.
+If this is your first time sending a transaction from this wallet, you will need to synchronize the key images. Don't 
+worry, the wizard will guide you through this.
 
-### Signing
+![Click 'Sign a transaction..'](/static/files/airgap_mode_sign.png)
 
-Unmount the flash drive and plug it into the offline machine.
+To scan the animated QR code, click **Sign a transaction..** on the **offline** wallet.
 
-Go to **Tools → Load unsigned transaction → From file**. Select the unsigned transaction created in the previous step.
+Follow the instructions in the wizard. Or continue reading here to go step by step.
 
-Verify the details. Click **Sign**, save the signed transaction to the flash drive.
+### Step by step
 
-### Broadcasting
+#### Step 1: scan the outputs (offline wallet)
 
-Unmount the flash drive and plug into the online device.
+Scan the QR code shown on the view-only wallet with your offline wallet.
 
-Go to **Tools → Broadcast transaction → From file**. Select the signed transaction created in the previous step.
+After the scan is complete, the offline wallet will automatically advance to the next step.
 
-Verify the transaction details. Click **Send** to broadcast the transaction.
+#### Step 2: scan the key images (view-only wallet)
 
-After the transcation has received at least 1 confirmation, re-sync the wallets using the steps above.
+On the view-only wallet, click **Next** to move it to step 2.
+
+Now scan the animated QR code shown on the offline wallet with the view-only wallet.
+
+The interface may freeze for a moment upon reaching 100%. Wait a few seconds.
+
+The view-only wallet will now begin constructing a transaction. If anything goes wrong here, simply try resending your 
+transaction. You will not have to do steps 1 and 2 again.
+
+#### Step 3: scan the unsigned transaction (offline wallet)
+
+After the transaction is constructed, an animated QR code will show up on the view-only wallet.
+
+On the **offline** wallet, click **Next** to move to step 3.
+
+![Sign the transaction](/static/files/airgap_mode_sign.png)
+
+After the scan is complete, a window will pop up showing you the transaction details. There will typically be two outputs,
+one 'change' output that goes back to your wallet. This output has a yellow or green background. The other one is the 
+address you're sending money to.
+
+Confirm the transaction details. Click **Sign**.
+
+#### Step 4: scan the signed transaction (view-only wallet)
+
+On the view-only wallet, click **Next** to move it to step 4.
+
+Scan the animated QR code shown on the offline wallet with the view-only wallet.
+
+After the scan is complete, a dialog will pop up asking you to confirm sending the transaction. You have just sent an airgapped transaction!
+
+The next time you create a transaction, you will likely not have to go through steps 1 or 2.

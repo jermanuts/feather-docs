@@ -28,20 +28,20 @@ The websocket server cannot make the client show arbitrary messages.
 
 The following data is provided by the websocket server:
 
-|key                        |description|
-|---------------------------|---------|
-|blockheights               |Current mainnet and stagenet blockheights. Used to speed up initial synchronization of newly created wallets.|
-|nodes                      |A curated list of high-performance nodes run by trusted members of the community. Includes status information such as their current blockheight.|
-|crypto_rates               |Crypto exchange rates. Obtained from CoinGecko. |
-|fiat_rates                 |Fiat exchange rates |
-|reddit                     |Latest Reddit posts in /r/Monero. Displayed on the Home screen.|
-|ccs                        |Proposals in the Community Crowdfunding System that require funding. Displayed on the Home screen.|
-|txFiatHistory              |Historical fiat prices|
-|updates                    |Latest Feather version |
-|xmrig                      |Latest xmrig downloads |
-|localmonero_countries      |List of countries supported by LocalMonero|
-|localmonero_currencies     |List of currencies supported by LocalMonero|
-|localmonero_payment_methods|List of payment methods supported by LocalMonero|
+|key                        | description                                                                                                                                     |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|blockheights               | Current mainnet and stagenet blockheights. Used to speed up initial synchronization of newly created wallets.                                   |
+|nodes                      | A curated list of high-performance nodes run by trusted members of the community. Includes status information such as their current blockheight. |
+|crypto_rates               | Crypto exchange rates. Obtained from CoinGecko.                                                                                                 |
+|fiat_rates                 | Fiat exchange rates                                                                                                                             |
+|reddit                     | Latest Reddit posts in /r/Monero. Displayed on the Home screen.                                                                                 |
+|ccs                        | Crowdfunding proposals from the Community Crowdfunding System and MAGIC Monero Fund. Displayed on the Home screen.          |
+|txFiatHistory              | Historical fiat prices                                                                                                                          |
+|updates                    | Latest Feather version                                                                                                                          |
+|xmrig                      | Latest xmrig downloads                                                                                                                          |
+|localmonero_countries      | List of countries supported by LocalMonero                                                                                                      |
+|localmonero_currencies     | List of currencies supported by LocalMonero                                                                                                     |
+|localmonero_payment_methods| List of payment methods supported by LocalMonero                                                                                                |
 
 ### Disabling the websocket connection
 

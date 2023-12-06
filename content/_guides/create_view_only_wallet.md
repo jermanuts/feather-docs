@@ -18,14 +18,3 @@ In the wizard select **Restore wallet from keys**. Enter the wallet's primary ad
 
 On the next page, enter the restore height or wallet creation date. Follow through the rest of the wizard like normal.
 
----
-
-### Exporting key images from the spend wallet
-
-Go to **Wallet → Advanced → Export → Key Images**. Enter a name for the file, and click **Save**.
-
-### Importing key images
-
-Go to **Wallet → Advanced → Import → Key Images**. Select the `_keyImages` file to open, a dialog should pop up informing you that the import was successful.
-
-Coins with a known key image will show an Eye icon in the **Coins** tab.
