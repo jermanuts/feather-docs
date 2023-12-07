@@ -4,6 +4,8 @@ nav_title: Airgapped signing issues
 category: troubleshooting
 ---
 
+Main article: [Offline transaction signing](offline-tx-signing)
+
 ### The QR Code is too bright/dark and can't be scanned
 
 - If your webcam supports it, enable "Manual exposure" and adjust the slider so the QR code is clearly visible

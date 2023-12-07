@@ -11,7 +11,8 @@ In the wizard, select **Restore wallet from seed**. Then, select your seed type.
 
 Carefully type the seed into the textbox. Put a single space between each word. Double check that all words are entered in the correct order and spelled correctly.
 
-Optionally, enter the seed offset passphrase. This is **not** the same as your wallet password or the wallet restore height. **If you are unsure what this is, leave it blank.**
+If you want to extend your seed with a passhrase, click **Options** and check **Extend this with a passphrase**. The 
+next page will allow you to enter the passphrase.
 
 On the next page, enter the [restore height](restore-height) or wallet creation date. Follow through the rest of the wizard like normal.
 
