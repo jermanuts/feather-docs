@@ -9,7 +9,7 @@ You can use dice rolls or coin flips to generate extra entropy in addition to en
 This may be useful if:
 
 - You want to create a seed in an environment that may have insufficient entropy (such a live operating system or virtual machine)
-- You do not want to rule out the possibility that your operating system may contain flaws that weaken the entropy provides by its random number generator
+- You do not want to rule out the possibility that your operating system has flaws that weaken the entropy provided by its random number generator
 
 Polyseed requests 19 bytes (= 152 bits of entropy). This tool assumes your system provides no entropy in determining how many rolls you must throw. Regardless, it will use system entropy _in addition_ to entropy generated from rolls/flips to reduce the impact of human error. **Do not write down the outcome of your dice rolls or coin flips.** This information can not be used to recreate your seed. 
 
