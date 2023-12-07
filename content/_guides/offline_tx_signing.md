@@ -58,7 +58,7 @@ The easiest way to transfer this information to your online device is by using a
 
 ![Transmit over UR](/static/files/airgap_transmit.png)
 
-Press **View-only details**, then press **Transmit over UR**.
+Press **View-only details**, then press **Transmit over UR**. You will be asked to enter a one-time password to encrypt your view-only details. This is the only time you will have to do this, future airgapped signing messages are automatically encrypted with the shared private view key. You can forget the one-time password after entering it on the online device in a later step.
 
 This will pop up a dialog with an animated QR code that covers most of the screen. Big QR codes are easier to scan.
 
@@ -140,7 +140,7 @@ After the transaction is constructed, an animated QR code will show up on the vi
 
 On the **offline** wallet, click **Next** to move to step 3.
 
-![Sign the transaction](/static/files/airgap_mode_sign.png)
+![Sign the transaction](/static/files/airgap_sign.png)
 
 After the scan is complete, a window will pop up showing you the transaction details. There will typically be two outputs,
 one 'change' output that goes back to your wallet. This output has a yellow or green background. The other one is the 
