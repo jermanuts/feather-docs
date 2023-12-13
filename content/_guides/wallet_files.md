@@ -60,4 +60,4 @@ A modern CPU takes about 30-40 ms to run the KDF on a single core using the refe
 
 ## Compatibility with other wallets
 
-Wallet files are generally compatible with other Monero wallets. Meaning, you can create a wallet with the CLI or GUI and open it in Feather or vice versa. However, compatibility issues may occur if the the underlying [wallet implementation](architecture) versions differ too much. Before opening a wallet file in a different client, make sure both clients are up to date.
+Wallet files are generally compatible with other Monero wallets. Meaning, you can create a wallet with the CLI or GUI and open it in Feather or vice versa. However, compatibility issues may occur if the the underlying wallet implementation versions differ too much. Before opening a wallet file in a different client, make sure both clients are up to date.

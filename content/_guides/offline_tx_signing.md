@@ -92,7 +92,7 @@ Step through the wizard.
 
 ## Fund your wallet
 
-On the view-only wallet, go to the **Receive** tab and copy an unused address. Or see [Primary adress](primary-adress) if you need your wallet's primary address.
+On the view-only wallet, go to the **Receive** tab and copy an unused address. Or see [Primary adress](primary-address) if you need your wallet's primary address.
 
 If you assume that the **view-only** is compromised, you can verify the address using the offline wallet.
 
@@ -102,7 +102,7 @@ If you assume that the **view-only** is compromised, you can verify the address 
 
 ## Sending a transaction
 
-To initiate an airgapped transaction, try to [send a transaction](create-transaction) on your view-only wallet.
+To initiate an airgapped transaction, try to [send a transaction](send-transaction) on your view-only wallet.
 
 A wizard will pop up showing an animated QR code.
 

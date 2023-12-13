@@ -23,7 +23,7 @@ After transaction construction is complete, a dialog will pop up asking you to v
 
 Click **Send** to broadcast the transaction after you have verified the details, or **Cancel** if something is wrong.
 
-Unconfirmed outgoing transactions will show up in the **History** tab with a gears icon. If several minutes pass and the transaction does not show up in your node's mempool its status will change to **Failed**. If the transaction does not show up in a publicly accessible mempool (e.g. [xmrchain.net](https://xmrchain.net/txpool)), you may assume the node was unable to relay your transaction. Follow the instruction [here](/failed-transaction) to resolve.
+Unconfirmed outgoing transactions will show up in the **History** tab with a gears icon. If several minutes pass and the transaction does not show up in your node's mempool its status will change to **Failed**. If the transaction does not show up in a publicly accessible mempool (e.g. [xmrchain.net](https://xmrchain.net/txpool)), you may assume the node was unable to relay your transaction. Follow the instruction [here](failed-tx) to resolve.
 
 ### Pay to many (multi-destination transaction)
 
@@ -31,4 +31,4 @@ See: [Pay to many](pay-to-many)
 
 ### Sweeping a single / multiple output(s)
 
-See: [Sweep outputs](sweep-outputs)
+See: [Sweep outputs](sweep-output)

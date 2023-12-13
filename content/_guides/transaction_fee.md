@@ -4,7 +4,7 @@ nav_title: Transaction Fee
 category: faq
 ---
 
-Feather automatically adjusts the transaction fee based on the number of transactions in the [mempool](glossary). This behavior is identical to the “automatic” fee option in the GUI.
+Feather automatically adjusts the transaction fee based on the number of transactions in the mempool. This behavior is identical to the “automatic” fee option in the GUI.
 
 #### Can I manually adjust the transaction fee?
 

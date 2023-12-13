@@ -43,7 +43,7 @@ If you tried manually importing the transaction, and it told you that the transa
 Go to **Tools → Address checker**, enter the address you sent the funds to. If it tells you that the address does not belong to your wallet, a few things could have happened:
 
 - You have opened the wrong wallet file
-- You did not copy the address correctly when you sent the transaction ([never manually type an address!](receive_transaction))
+- You did not copy the address correctly when you sent the transaction ([never manually type an address!](receive-transaction))
 - You have [copy-paste malware](https://medium.com/chainreport/copy-paste-malware-crypto-multipliers-4a0c09c7730a) installed on your computer
 
 Unfortunately, we can't help you recover your funds if you sent XMR to an address that doesn't belong to your wallet.
@@ -52,6 +52,6 @@ Unfortunately, we can't help you recover your funds if you sent XMR to an addres
 
 If none of the above worked, ask the sender to provide you with a payment proof (OutProof) or the transaction secret key. 
 
-Learn how to verify proofs in Feather [here](verify_tx_proof). You can verify transaction secret keys by using [xmrchain.net](https://xmrchain.net). Look up your transaction ID and click "Prove sending".
+Learn how to verify proofs in Feather [here](verify-tx-proof). You can verify transaction secret keys by using [xmrchain.net](https://xmrchain.net). Look up your transaction ID and click "Prove sending".
 
 If the sender can not produce a valid payment proof, they may have not sent you any funds!

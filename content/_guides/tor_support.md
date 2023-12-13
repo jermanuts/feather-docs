@@ -8,7 +8,7 @@ Feather works with Tor out of the box. You don't have to manually install Tor to
 
 Feather releases are bundled with a Tor binary. If the presence of a local Tor daemon on the default port (9050) is not detected, Feather will place the bundled Tor binary in the [config folder](paths) and run it on port 19450.
 
-If you are unable to connect to the Tor network on your machine, you may configure Feather to use a different [proxy](proxy) (or no proxy at all). 
+If you are unable to connect to the Tor network on your machine, you may configure Feather to use a different proxy (or no proxy at all). 
 
 Feather can be configured to handle traffic to nodes in three different ways:
 
