@@ -52,15 +52,13 @@ Now that you have your offline wallet set up, you need to create a corresponding
 
 Three pieces of information are required for this: secret view key, primary address, and restore height.
 
-The easiest way to transfer this information to your online device is by using a UR (animated QR code).
+The easiest way to transfer this information to your online device is scanning a QR code.
 
 ![Press view-only details](/static/files/airgap_mode_viewonly.png)
 
-![Transmit over UR](/static/files/airgap_transmit.png)
+![Show QR](/static/files/airgap_transmit.png)
 
-Press **View-only details**, then press **Transmit over UR**. You will be asked to enter a one-time password to encrypt your view-only details. This is the only time you will have to do this, future airgapped signing messages are automatically encrypted with the shared private view key. You can forget the one-time password after entering it on the online device in a later step.
-
-This will pop up a dialog with an animated QR code that covers most of the screen. Big QR codes are easier to scan.
+Press **View-only details**, then press **Show QR**.
 
 ![Restore wallet from keys](/static/files/airgap_menu.png)
 
@@ -68,21 +66,9 @@ On the **online** device, open the wizard and select **Restore wallet from keys*
 
 ![Scan UR](/static/files/airgap_restore.png)
 
-Press **Scan UR**. A dialog will show up that looks like this:
+Press **Scan QR** and scan the code shown on the offline device. If you have trouble scanning the QR code, see [Help: Airgapped signing issues](airgapped-signing-issues) for tips.
 
-![Scanning UI](/static/files/airgap_scan.png)
-
-Familiarize yourself with the scanning UI:
-
-1. If you have multiple cameras, you can click here to switch between cameras
-2. You can click on 'Refresh' to refresh the list of cameras
-3. This progress bar will fill up as you scan fragments. If it appears to get stuck on 99%, keep scanning.
-4. If you have trouble scanning the QR code due to glare, you can enable manual exposure here if your camera supports it. Use the slider to adjust the exposure level.
-
-Scan the code shown on the offline device. If everything went right, the dialog should close automatically on completion 
-and autofill the view-only details.
-
-If you have trouble scanning the QR code, see [Help: Airgapped signing issues](airgapped-signing-issues) for tips.
+If everything went right, the dialog should close automatically and autofill the view-only details.
 
 Step through the wizard. 
 
@@ -111,7 +97,16 @@ worry, the wizard will guide you through this.
 
 ![Click 'Sign a transaction..'](/static/files/airgap_mode_sign.png)
 
-To scan the animated QR code, click **Sign a transaction..** on the **offline** wallet.
+To scan the animated QR code, click **Sign a transaction..** on the **offline** wallet. A dialog will show up that looks like this:
+
+![Scanning UI](/static/files/airgap_scan.png)
+
+Familiarize yourself with the scanning UI:
+
+1. If you have multiple cameras, you can click here to switch between cameras
+2. You can click on 'Refresh' to refresh the list of cameras
+3. This progress bar will fill up as you scan fragments. If it appears to get stuck on 99%, keep scanning.
+4. If you have trouble scanning the QR code due to glare, you can enable manual exposure here if your camera supports it. Use the slider to adjust the exposure level.
 
 Follow the instructions in the wizard. Or continue reading here to go step by step.
 
