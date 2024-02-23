@@ -21,8 +21,7 @@ If an operating system / distribution no longer receives security updates, we ma
 This allows us to keep our build system and dependencies up-to-date and ensures our releases benefit from optimizations 
 and security improvements that modern compilers provide.
 
-Using Feather on an unsupported ("End-of-Life") distribution increases the risk of attracting malware through unpatched 
-security vulnerabilities which may result in a loss of privacy or a loss of funds.
+Using Feather on an unsupported ("End-of-Life") distribution increases the risk of malware infection due to unpatched security vulnerabilities which may result in a loss of privacy or a loss of funds.
 
 #### Why no support for Windows 7 / 8.1 ?
 
