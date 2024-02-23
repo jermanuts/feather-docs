@@ -12,8 +12,6 @@ Updates that are installed via the built-in updater are verified in multiple way
 
 If you choose to update your wallet, the update will be placed alongside the old executable in the same directory. You may delete the old executable after you have verified that the new version starts properly on your machine.
 
-**Note**: As of `beta-8` the updater is disabled on macOS.
-
 ### Update security
 
 The websocket server notifies the client of the latest Feather version.
