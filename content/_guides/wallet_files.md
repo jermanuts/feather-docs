@@ -40,9 +40,9 @@ This file is used to distinguish wallets on different networks from eachother.
 
 ## Encryption
 
-The keys and cache files are encrypted using the [chacha20 stream cipher](https://www.cryptopp.com/wiki/ChaCha20). The KDF to generate the encryption key from the wallet password is [CryptoNight](https://monerodocs.org/proof-of-work/cryptonight/), a memory hard hash function that was used in Monero's proof-of-work before RandomX.
+The keys and cache files are encrypted using the [chacha20 stream cipher](https://www.cryptopp.com/wiki/ChaCha20). The KDF to generate the encryption key from the wallet password is 𝒄𝒓𝒚𝒑𝒕𝒐𝒏𝒊𝒈𝒉𝒕, a memory hard hash function that was used in Monero's proof-of-work before RandomX.
 
->The CryptoNight hash operates by first using Keccak 1600,
+>The 𝒄𝒓𝒚𝒑𝒕𝒐𝒏𝒊𝒈𝒉𝒕 hash operates by first using Keccak 1600,
 >the 1600 bit variant of the Keccak hash used in SHA-3, to create a 200 byte
 >buffer of pseudorandom data by hashing the supplied data.  It then uses this
 >random data to fill a large 2MB buffer with pseudorandom data by iteratively
