@@ -8,7 +8,7 @@ Feather is a 100% community sponsored endeavor. If you want to join our efforts,
 
 Donations help pay for hosting, build servers, domain names, e-mail and other recurring costs. Any amount helps!
 
-Our donation address is:
+Our Monero donation address is:
 
 ```
 47ntfT2Z5384zku39pTM6hGcnLnvpRYW2Azm87GiAAH2bcTidtq278TL6HmwyL8yjMeERqGEBs3cqC8vvHPJd1cWQrGC65f
