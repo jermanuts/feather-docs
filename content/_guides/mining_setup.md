@@ -6,11 +6,11 @@ category: howto
 
 Go to the **Mining** tab. (If not shown, go to **View → Show Mining**).
 
-### Downloading XMRig
+### Downloading 𝐗𝐌𝐑𝐢𝐠
 
 Within the **Mining** tab, go to the **Downloads** tab.
 
-**Right click → Download file** on the latest XMRig version for your operation system.
+**Right click → Download file** on the latest 𝐗𝐌𝐑𝐢𝐠 version for your operation system.
 
 After the download is complete, extract the file.
 
@@ -18,13 +18,13 @@ After the download is complete, extract the file.
 
 Within the **Mining** tab, go to the **Settings** tab.
 
-##### XMRig executable
+##### 𝐗𝐌𝐑𝐢𝐠 executable
 
-Click **Browse** and navigate to the location of the XMRig executable that was downloaded in the previous step.
+Click **Browse** and navigate to the location of the 𝐗𝐌𝐑𝐢𝐠 executable that was downloaded in the previous step.
 
 ##### Run as admin/root
 
-Running XMRig as admin/root may increase hashrate. Click **Yes** if you want to enable this.
+Running 𝐗𝐌𝐑𝐢𝐠 as admin/root may increase hashrate. Click **Yes** if you want to enable this.
 
 **Note:** As of 1.0.0 this feature is not supported on Windows, yet.
 

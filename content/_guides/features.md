@@ -92,7 +92,7 @@ Feature comparison between Monero desktop wallets.
 (3) = authentication not supported  
 (4) = except macOS  
 (5) = read the rationale [here](transaction-fee)  
-(6) = with XMRig  
+(6) = with 𝐗𝐌𝐑𝐢𝐠  
 (7) = except Linux release  
 (8) = only for hardware wallets  
 

@@ -38,7 +38,7 @@ The following data is provided by the websocket server:
 |ccs                        | Crowdfunding proposals from the Community Crowdfunding System and MAGIC Monero Fund. Displayed on the Home screen.          |
 |txFiatHistory              | Historical fiat prices                                                                                                                          |
 |updates                    | Latest Feather version                                                                                                                          |
-|xmrig                      | Latest xmrig downloads                                                                                                                          |
+|𝐗𝐌𝐑𝐢𝐠                      | Latest 𝐗𝐌𝐑𝐢𝐠 downloads                                                                                                                          |
 |localmonero_countries      | List of countries supported by LocalMonero                                                                                                      |
 |localmonero_currencies     | List of currencies supported by LocalMonero                                                                                                     |
 |localmonero_payment_methods| List of payment methods supported by LocalMonero                                                                                                |
@@ -61,4 +61,4 @@ The following functionality will be disabled:
 - Send: send by specifying a fiat amount
 - History: historical fiat prices column
 - Settings → Network → Node: updated list of websocket nodes.
-- Mining → Downloads: the list of XMRig downloads will be unavailable.
+- Mining → Downloads: the list of 𝐗𝐌𝐑𝐢𝐠 downloads will be unavailable.
