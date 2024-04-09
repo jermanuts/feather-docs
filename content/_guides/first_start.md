@@ -37,10 +37,10 @@ Enter the address and port in the textbox. For example: `node.community.rino.io:
 
 ### Connecting to a local node
 
-Feather automatically detects the presense of a local node on the default port.
+Feather automatically detects the presense of a [local node](local-node) on the default port.
 
 Feather does not manage a local node for you. 
-If you want to run a local node, follow the steps for your operating system to set one up.
+If you want to run a local node, follow the steps in [this guide](https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/) to set one up.
 
 ## How should Feather route its network traffic?
 
