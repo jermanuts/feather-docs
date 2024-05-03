@@ -57,6 +57,7 @@ Feature comparison between Monero desktop wallets.
 | Transaction unlock time                                                                     | ✖†                       | ✔               | ✖               |
 | Automatic network fee adjustment                                                            | ✔                        | ✔               | ✔               |
 | Manual fee-tier selection                                                                   | ✔                        | ✔               | ✔               |
+| Subtract fee from amount                                                                    | ✔                        | ✔               | ✖               |
 | Multisig                                                                                    | ✖*                       | ✔               | ✖               |
 | **► Mining**                                                                                |
 | Solo mining                                                                                 | ✔<sup>[6]</sup>          | ✔               | ✔               |
