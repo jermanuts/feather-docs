@@ -56,7 +56,7 @@ Feature comparison between Monero desktop wallets.
 | ... using animated QR codes                                                                 | ✔                        | ✖               | ✖               |
 | Transaction unlock time                                                                     | ✖†                       | ✔               | ✖               |
 | Automatic network fee adjustment                                                            | ✔                        | ✔               | ✔               |
-| Manual fee-tier selection                                                                   | ✔                        | ✔               | ✔               |
+| [Manual fee-tier selection](transaction-fee)                                                | ✔                        | ✔               | ✔               |
 | Subtract fee from amount                                                                    | ✔                        | ✔               | ✖               |
 | Multisig                                                                                    | ✖*                       | ✔               | ✖               |
 | **► Mining**                                                                                |
@@ -78,7 +78,10 @@ Feature comparison between Monero desktop wallets.
 | Auto-open passwordless wallets                                                              | ✔                        | ✖               | ✖               |
 | Copy-pasteable support template                                                             | ✔                        | ✖               | ✖               |
 | Open multiple wallets in single instance                                                    | ✔                        | ✖               | ✖               |
-| Extra entropy from dice rolls                                                               | ✔                        | ✖               | ✖               |
+| [Extra entropy from dice rolls](entropy-from-dice)                                          | ✔                        | ✖               | ✖               |
+| Built-in documentation browser                                                              | ✔                        | ✖               | ✖               |
+| Transaction pool viewer                                                                     | ✔                        | ✖               | ✖               |
+| [Damaged/partial seed recovery tools](damaged-seed)                                         | ✔                        | ✖               | ✖               |
 | Mass address export                                                                         | ✖*                       | ✖               | ✖               |
 | Atomic swaps                                                                                | ✖*                       | ✖               | ✖               |
 | Adjustable subaddress lookahead                                                             | ✔                        | ✔               | ✔<sup>[8]</sup> |
