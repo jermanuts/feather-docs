@@ -6,14 +6,9 @@ category: faq
 
 Feather automatically adjusts the transaction fee based on the number of transactions in the mempool. This behavior is identical to the “automatic” fee option in the GUI.
 
-#### Can I manually adjust the transaction fee?
+#### Can I manually select the fee-tier?
 
-It is not currently possible to manually adjust the transaction fee in Feather.
-
-Transaction fees are visible on the blockchain, therefore setting it manually can make your transaction stick out and harm your privacy. In the interest of transaction uniformity, we have decided to not add this feature at this time.
-
-Besides, paying a higher than normal fee usually has no impact on the time it takes for your transaction to get confirmed. This is because Monero blocks are usually not full and thus there is no competition for block space. Transactions paying the minimum fee will almost always get included in 1 or 2 blocks.
-
+Yes. In the settings, go to the transactions tab and enable "manual fee-tier selection". A selection box will appear on the Send tab.
 
 #### My outgoing transaction still hasn't confirmed, what can I do?
 

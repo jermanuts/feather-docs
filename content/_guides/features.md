@@ -56,7 +56,7 @@ Feature comparison between Monero desktop wallets.
 | ... using animated QR codes                                                                 | ✔                        | ✖               | ✖               |
 | Transaction unlock time                                                                     | ✖†                       | ✔               | ✖               |
 | Automatic network fee adjustment                                                            | ✔                        | ✔               | ✔               |
-| Manual network fee adjustment                                                               | ✖<sup>[5]</sup>          | ✔               | ✔               |
+| Manual fee-tier selection                                                                   | ✔                        | ✔               | ✔               |
 | Multisig                                                                                    | ✖*                       | ✔               | ✖               |
 | **► Mining**                                                                                |
 | Solo mining                                                                                 | ✔<sup>[6]</sup>          | ✔               | ✔               |
@@ -91,7 +91,6 @@ Feature comparison between Monero desktop wallets.
 (2) = Polyseed uses BIP-39 wordlists, for Monero see [here](https://github.com/monero-project/monero/tree/master/src/mnemonics). As of 1.0.0 only English is supported for Polyseed.  
 (3) = authentication not supported  
 (4) = except macOS  
-(5) = read the rationale [here](transaction-fee)  
 (6) = with 𝐗𝐌𝐑𝐢𝐠  
 (7) = except Linux release  
 (8) = only for hardware wallets  
