@@ -19,4 +19,4 @@ This transaction sends 1 XMR to the first address and 0.5 XMR to the second addr
 
 The **Amount** field displays the total amount to be sent.
 
-A maximum of 16 outputs may be specified. This is a limitation in the Monero protocol.
+A maximum of 15 outputs may be specified. This is a limitation in the Monero protocol.
