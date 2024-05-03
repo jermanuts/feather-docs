@@ -24,8 +24,8 @@ After importing the key, verify that the fingerprint matches:
 We recommend that you cross-check the fingerprint shown above through the domains listed below. By cross-checking the integrity of the fingerprint across multiple domains you can be confident that you obtained the correct key.
 
 - [X profile](https://twitter.com/FeatherWallet)
-- [Subreddit sidebar](https://old.reddit.com/r/FeatherWallet/)
-- [Monero.Town community sidebar](https://monero.town/c/featherwallet)
+- [monero.town community sidebar](https://monero.town/c/featherwallet)
+- [Matrix channel description](https://matrix.to/#/#feather:monero.social)
 - Through DNS (Linux): `drill -D key.featherwallet.net TXT`
 
 If any of the resources listed above do not provide the expected fingerprint, please [report](report-an-issue) this to the developers immediately.
