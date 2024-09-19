@@ -19,3 +19,5 @@ For live support please contact us via IRC or Matrix. If you do not have an IRC 
 To report a security vulnerability, please refer to our [security policy](https://github.com/feather-wallet/feather/blob/master/SECURITY.md) for responsible disclosure.
 
 Feather does not have an official Telegram channel.
+
+Feather only owns and manages the following domains and websites: featherwallet.org, feather-wallet.com, feather-wallet.net, and featherwallet.net. Any websites other than these should be treated with caution, as they may be phishing sites. To ensure your safety, it is essential to always verify the authenticity of any downloads and only download from trusted sources like [GitHub](https://github.com/feather-wallet/feather/releases) and [featherwallet.org](https://featherwallet.org/).
