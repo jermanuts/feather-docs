@@ -5,6 +5,8 @@ category: getting-started
 weight: 20
 ---
 
+To learn if your hardware device is supported see [supported hardware devices](hardware-wallet-support).
+
 Make sure your hardware device is connected to your computer.
 
 **Ledger**: Open the Monero app on your device.  
