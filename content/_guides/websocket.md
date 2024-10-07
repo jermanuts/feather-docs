@@ -38,9 +38,6 @@ The following data is provided by the websocket server:
 |txFiatHistory              | Historical fiat prices. Obtained from CoinCap.                                                                                                  |
 |updates                    | Latest FeatherWallet version.                                                                                                                   |
 |𝐗𝐌𝐑𝐢𝐠                      | Latest 𝐗𝐌𝐑𝐢𝐠 downloads.                                                                                                                        |
-|localmonero_countries      | List of countries supported by LocalMonero.                                                                                                     |
-|localmonero_currencies     | List of currencies supported by LocalMonero.                                                                                                    |
-|localmonero_payment_methods| List of payment methods supported by LocalMonero.                                                                                               |
 
 ### Disabling the websocket connection
 

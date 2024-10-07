@@ -4,7 +4,7 @@ nav_title: Donate
 category: help
 ---
 
-Feather is a 100% community sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially.
+Feather development is funded entirely through donations. We don't take a cut from transaction fees and make no money from exchange integrations.
 
 Donations help pay for hosting, build servers, domain names, e-mail and other recurring costs. Any amount helps!
 
