@@ -12,7 +12,7 @@ A **local node** is a node that runs on your own computer or a private network. 
 
 A **remote node** is a node that is accessible on a public network. Typically, a third party runs a remote node. Remote nodes are referred to as public nodes in some contexts.
 
-By default, Feather connects to a random node from a curated list of high performance remote nodes run by trusted members of the Monero community. When Feather is started for the first time, you have the option to configure how to wallet will connect to a node **before** any connections are made.
+By default, Feather connects to a random node from a curated list of high performance remote nodes run by trusted members of the Monero community. When Feather is started for the first time, you have the option to configure how the wallet will connect to a node **before** any connections are made.
 
 You can change how Feather connect by going to **Settings → Network → Nodes**.
 
