@@ -21,17 +21,17 @@ If you are looking to install Feather, see the **Installation** section in the s
 
 Feather must connect to a node in order to scan for your transactions. A node is a computer hosting a copy of the Monero blockchain. (For more information, see [Nodes](nodes).)
 
-Connecting to node hosted by a third party comes with some privacy risks. Please review the information in [Nodes](nodes) to learn if these risks are relevant to your threat model.
+Connecting to a node hosted by a third party comes with some privacy risks. Please review the information in [Nodes](nodes) to learn if these risks are relevant to your threat model.
 
 ### Auto connect
 
-Feather has a built-in list of high-performance nodes hosted by the Feather team and trusted members of the Monero community. In most cases you want to let Feather pick one of these nodes at random.
+Feather has a built-in list of high-performance nodes hosted by the Feather team and trusted members of the Monero community. In most cases, you want to let Feather pick one of these nodes at random.
 
 We recommend using this option for **most** users.
 
 ### Connecting to a custom remote node
 
-If you do not want to connect to one the built-in nodes, select **Select node manually**.
+If you do not want to connect to one of the built-in nodes, select **Select node manually**.
 
 Enter the address and port in the textbox. For example: `node.community.rino.io:18081`.
 
