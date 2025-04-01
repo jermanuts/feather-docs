@@ -50,8 +50,8 @@ This section describes how to setup Feather in portable mode. For more informati
 
 ![Right click → Certify](/static/files/win-gpg-certify.png)
 
-- If you don't already have a GPG key you will be asked to create one:
-  - You may enter any name and leave the e-mail field blank
+- If you don't already have a GPG key, you will be asked to create one:
+  - You may enter any name and leave the email field blank.
 
 ![Click "Create" to create an OpenPGP certificate](/static/files/win-gpg-create-openpgp-cert.png)
 
@@ -62,7 +62,7 @@ This section describes how to setup Feather in portable mode. For more informati
 - You will now be asked to verify the fingerprint of Feather's release signing key.
    - **Check that the fingerprint matches**: `8185 E158 A333 30C7 FD61 BC0D 1F76 E155 CEFB A71C`.
    - Only the letters and digits matter, you may ignore any extra or missing spaces.
-   - We recommend that you also cross-check the fingerprint shown above through the domains listed [here](release-signing-key). By cross-checking the integrity of the fingerprint across multiple domains you can be confident that you obtained the correct key.
+   - We recommend that you also cross-check the fingerprint shown above through the domains listed [here](release-signing-key). By cross-checking the integrity of the fingerprint across multiple domains, you can be confident that you obtained the correct key.
    - If the fingerprint does not match, click "Cancel" and do not continue with the installation procedure. Instead, [report](report-an-issue) this incident to the developers immediately.
 
 ![Make sure the fingerprint matches](/static/files/win-gpg-verify-fingerprint.png)
