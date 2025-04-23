@@ -12,7 +12,7 @@ You don't typically have to worry about the restore height when using Feather. F
 
 You may need to enter a restore height if you are:
 
-- Restoring a wallet from a 24 word seed
+- Restoring a wallet from a 25 word seed
 - Restoring a wallet from a hardware device
 
 
