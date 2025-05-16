@@ -61,7 +61,7 @@ Feature comparison between Monero desktop wallets.
 | Multisig                                                                                    | ✖*                       | ✔               | ✖               |
 | **► Mining**                                                                                |
 | Solo mining                                                                                 | ✖†                       | ✔               | ✔               |
-| [Pool mining](mining-setup)                                                                 | ✖†                       | ✖               | ✖               |
+| Pool mining                                                                                 | ✖†                       | ✖               | ✖               |
 | P2Pool                                                                                      | ✖†                       | ✖               | ✔               |
 | **► Hardware wallets**                                                                      |
 | Ledger Nano S/S+/X                                                                          | ✔                        | ✔               | ✔               |
