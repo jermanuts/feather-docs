@@ -41,7 +41,5 @@ Datastructures not displayed in the viewer:
 - `feather.seed`: backup copy of the wallet's [Polyseed](seed-scheme)
 - `feather.seedoffset`: seed offset passphrase
 - `feather.hiddenaddresses`: comma delimited list of hidden subaddresses.
-- `feather.𝐗𝐌𝐑𝐢𝐠_username`: receiving address in mining settings
-- `feather.𝐗𝐌𝐑𝐢𝐠_password`: password for mining pool
 - `feather.subaddress_account`: index of selected subaddress account
 - `tx:<txid>`: hexstring of outgoing transaction

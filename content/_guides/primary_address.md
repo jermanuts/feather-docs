@@ -12,7 +12,7 @@ The primary address is a valid Monero address and can be used to receive funds. 
 
 You may need your primary address when you are:
 
-- [Solo-mining](mining-setup)
+- Solo-mining
 - [Creating a view-only wallet](create-view-only-wallet)
 - Transacting with a service that does not accept subaddresses
 

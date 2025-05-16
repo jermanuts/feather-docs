@@ -60,8 +60,8 @@ Feature comparison between Monero desktop wallets.
 | Subtract fee from amount                                                                    | ✔                        | ✔               | ✖               |
 | Multisig                                                                                    | ✖*                       | ✔               | ✖               |
 | **► Mining**                                                                                |
-| Solo mining                                                                                 | ✔<sup>[6]</sup>          | ✔               | ✔               |
-| [Pool mining](mining-setup)                                                                 | ✔<sup>[6]</sup>          | ✖               | ✖               |
+| Solo mining                                                                                 | ✖†                       | ✔               | ✔               |
+| [Pool mining](mining-setup)                                                                 | ✖†                       | ✖               | ✖               |
 | P2Pool                                                                                      | ✖†                       | ✖               | ✔               |
 | **► Hardware wallets**                                                                      |
 | Ledger Nano S/S+/X                                                                          | ✔                        | ✔               | ✔               |
@@ -95,7 +95,6 @@ Feature comparison between Monero desktop wallets.
 (2) = Polyseed uses BIP-39 wordlists, for Monero see [here](https://github.com/monero-project/monero/tree/master/src/mnemonics). As of 1.0.0 only English is supported for Polyseed.  
 (3) = authentication not supported  
 (4) = except macOS  
-(6) = deprecated  
 (7) = except Linux release  
 (8) = only for hardware wallets  
 

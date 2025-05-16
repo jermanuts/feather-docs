@@ -37,7 +37,6 @@ The following data is provided by the websocket server:
 |ccs                        | Crowdfunding proposals from the Community Crowdfunding System and MAGIC Monero Fund. Displayed on the Home screen.                              |
 |txFiatHistory              | Historical fiat prices. Obtained from CoinCap.                                                                                                  |
 |updates                    | Latest FeatherWallet version.                                                                                                                   |
-|𝐗𝐌𝐑𝐢𝐠                      | Latest 𝐗𝐌𝐑𝐢𝐠 downloads.                                                                                                                        |
 
 ### Disabling the websocket connection
 
@@ -57,4 +56,3 @@ The following functionality will be disabled:
 - Send: send by specifying a fiat amount
 - History: historical fiat prices column
 - Settings → Network → Node: updated list of websocket nodes.
-- Mining → Downloads: the list of 𝐗𝐌𝐑𝐢𝐠 downloads will be unavailable.
