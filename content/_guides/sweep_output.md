@@ -16,7 +16,7 @@ By specifying the **number of outputs**, you may split the total sum of the sele
 
 ### What is a sweep
 
-A sweep transaction creates no change outputs. The total value of the sweeped coins is transferred to the destination address (minus miner fee).
+A sweep transaction creates no change outputs. The total value of the sweeped coins is transferred to the destination address (minus transaction fee).
 
 ### When to sweep
 

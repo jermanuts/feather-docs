@@ -20,4 +20,4 @@ If the transaction shows up, all you can do is wait. Your transaction should be 
 
 #### Who receives the transaction fee?
 
-The fee is paid to the miner that mines the block that includes the transaction. The Feather developers do not take a cut from the transaction fee.
+The fee is paid to the entity that mines the block that includes the transaction. The Feather developers do not take a cut from the transaction fee.

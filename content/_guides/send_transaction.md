@@ -13,9 +13,9 @@ In the **Pay to** field, enter the address you want to transfer funds to. You ma
 
 In the **Description** field, you may enter an optional transaction description. The description is not sent to the recipient of the funds, it only exists for your own bookkeeping. The description is stored in the wallet cache, and displayed in the **History** tab.
 
-In the **Amount** field, enter the amount you want to send. This is the exact amount the recipient will receive, it does not include the miner fee. To send all your balance, click the **Max** button.
+In the **Amount** field, enter the amount you want to send. This is the exact amount the recipient will receive, it does not include the transaction fee. To send all your balance, click the **Max** button.
 
-To construct the transaction, click **Send**. You will be able to review the transaction details and miner fee before broadcasting.
+To construct the transaction, click **Send**. You will be able to review the transaction details and transaction fee before broadcasting.
 
 If you are using a hardware wallet you may need to authorize the transaction on the device. Transaction construction on a hardware device can take several minutes.
 
